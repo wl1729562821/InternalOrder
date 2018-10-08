@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:background="#f5f5f5"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:id="@+id/check"
+            android:background="@drawable/check_bg"
+            android:layout_marginLeft="34px"
+            android:layout_marginRight="34px"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:layout_width="260px"
+                    android:layout_height="180px"
+                    android:layout_marginTop="24px"
+                    android:layout_marginBottom="24px"
+                    android:layout_marginLeft="30px"
+                    app:placeholderImage="@mipmap/upload_default"
+                    app:retryImage="@mipmap/upload_default"
+                    app:roundAsCircle="false"
+                    app:actualImageScaleType="centerCrop"
+                    android:id="@+id/img"
+                    app:failureImage="@mipmap/upload_default"
+                    android:background="@mipmap/upload_default"
+                    />
+                <LinearLayout
+                    android:layout_marginTop="24px"
+                    android:layout_marginLeft="24px"
+                    android:layout_marginRight="46px"
+                    android:layout_marginBottom="24px"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="东城名居金地二期金地 太"
+                        android:maxLines="2"
+                        android:id="@+id/name"
+                        android:textColor="#373737"
+                        android:textSize="28px"
+                        android:layout_marginTop="6px"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="34 SqFt"
+                            android:textSize="24px"
+                            android:gravity="center"
+                            android:id="@+id/tv1"
+                            android:textColor="#7d7d7d"/>
+
+                        <ImageView
+                            android:layout_width="20px"
+                            android:layout_height="25px"
+                            android:background="@mipmap/home_one_location"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="35px"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text=""
+                            android:id="@+id/tv2"
+                            android:textSize="24px"
+                            android:gravity="center"
+                            android:layout_marginLeft="6px"
+                            android:textColor="#7d7d7d"/>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3424AED/year"
+                        android:textColor="#f7b95f"
+                        android:textSize="28px"
+                        android:id="@+id/tv3"
+                        android:layout_marginBottom="6px"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f5f5f5"></View>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

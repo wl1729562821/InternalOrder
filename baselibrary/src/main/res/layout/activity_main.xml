@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.ysgj.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#373737"
+            android:textSize="19.2sp"
+            android:textStyle="bold"
+            app:layout_marginLeftPercent="5.3333%w"
+            app:layout_marginTopPercent="21%w"
+            android:id="@+id/login_title"/>
+
+        <com.ysgj.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            app:layout_heightPercent="27.2%w"
+            android:id="@+id/login_name_parent"
+            app:layout_paddingLeftPercent="6%w"
+            app:layout_paddingRightPercent="6%w"
+            android:layout_below="@id/login_title">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/login_name_line"
+                android:background="#e5dcdc"
+                android:layout_alignParentBottom="true"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/heihei_tv52"
+                android:textColorHint="#b7b7b7"
+                android:textSize="15sp"
+                android:layout_toLeftOf="@+id/login_name_img"
+                android:layout_below="@+id/login_title"
+                android:background="@null"
+                android:id="@+id/login_name"
+                android:inputType="number|text"
+                app:layout_paddingTopPercent="3.73%w"
+                app:layout_paddingBottomPercent="3.73%w"
+                app:layout_paddingLeftPercent="0.78%w"
+                app:layout_paddingRightPercent="0.78%w"
+                android:textCursorDrawable="@drawable/edit_cursor"
+                android:layout_above="@id/login_name_line"
+                />
+
+        </com.ysgj.percent.PercentRelativeLayout>
+
+        <com.ysgj.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            app:layout_heightPercent="17.32%w"
+            android:id="@+id/login_pwd_parent"
+            app:layout_paddingLeftPercent="6%w"
+            app:layout_paddingRightPercent="6%w"
+            android:layout_below="@+id/login_name_parent">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/login_pwd_line"
+                android:background="#e5dcdc"
+                android:layout_alignLeft="@id/login_pwd"
+                android:layout_alignParentBottom="true"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/heihei_tv53"
+                android:textColorHint="#b7b7b7"
+                android:textSize="15sp"
+                android:layout_below="@+id/login_title"
+                android:background="@null"
+                android:id="@+id/login_pwd"
+                android:gravity="bottom"
+                android:inputType="textPassword"
+                app:layout_paddingTopPercent="0%w"
+                app:layout_paddingBottomPercent="3.73%w"
+                app:layout_paddingLeftPercent="0.78%w"
+                app:layout_paddingRightPercent="0.78%w"
+                android:textCursorDrawable="@drawable/edit_cursor"
+                android:layout_above="@id/login_pwd_line"
+                />
+
+        </com.ysgj.percent.PercentRelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_bt"
+            android:layout_below="@id/login_pwd_parent"
+            app:layout_marginLeftPercent="8.8%w"
+            app:layout_marginTopPercent="21.86%w"
+            app:layout_marginRightPercent="8.8%w"
+            android:text="@string/heihei_tv54"
+            android:gravity="center"
+            app:layout_paddingTopPercent="3.5%w"
+            app:layout_paddingBottomPercent="3.5%w"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:background="@drawable/login_bt"
+            />
+
+    </com.ysgj.percent.PercentRelativeLayout>
+
+</ScrollView>

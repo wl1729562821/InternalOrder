@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25px"
+        android:textSize="32px"
+        android:textColor="#000"
+        android:text="@string/app_tv27"
+        android:paddingLeft="30px"
+        android:id="@+id/test1"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25px"
+        android:textSize="32px"
+        android:textColor="#000"
+        android:id="@+id/test2"
+        android:text="派单@string/deliverydetailsnext_tv2"
+        android:paddingLeft="30px"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25px"
+        android:textSize="32px"
+        android:textColor="#000"
+        android:text="派单@string/deliverydetailsnext_tv2"
+        android:id="@+id/test3"
+        android:paddingLeft="30px"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/address_tv"
+                android:text="gfbfgb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <cn.yc.library.ui.view.ListingView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </cn.yc.library.ui.view.ListingView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:id="@+id/refresh_layout"
+        android:layout_height="match_parent">
+        <cn.yc.library.view.XRecyclerView
+            android:id="@+id/xrecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </cn.yc.library.view.XRecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

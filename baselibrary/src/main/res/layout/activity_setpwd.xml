@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <include android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar"
+        android:id="@id/toolbar"/>
+
+    <com.ysgj.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="13.33%w">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:layout_heightPercent="13.33%w"
+            android:background="@null"
+            android:singleLine="true"
+            android:hint="New password (must be greater than seven digits and contains letters and numbers)"
+            app:layout_paddingLeftPercent="4%w"
+            app:layout_paddingRightPercent="4%w"
+            android:gravity="center_vertical"
+            android:textColorHint="#bfbfbf"
+            android:textColor="#373737"
+            android:textSize="15sp"
+            android:id="@+id/pwd1"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            />
+        <ImageView
+            app:layout_widthPercent="6.15%w"
+            app:layout_heightPercent="3.9%w"
+            app:layout_marginRightPercent="4%w"
+            android:layout_gravity="center"
+            android:background="@mipmap/cleartext"/>
+
+    </com.ysgj.percent.PercentLinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"
+        />
+    <com.ysgj.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        app:layout_heightPercent="13.33%w">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:layout_heightPercent="13.33%w"
+            android:background="@null"
+            android:singleLine="true"
+            android:hint="Confirm new password (must be greater than seven digits and contain letters and numbers)"
+            app:layout_paddingLeftPercent="4%w"
+            app:layout_paddingRightPercent="4%w"
+            android:gravity="center_vertical"
+            android:textColorHint="#bfbfbf"
+            android:textColor="#373737"
+            android:id="@+id/pwd2"
+            android:textSize="15sp"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/edit_cursor"
+            />
+        <ImageView
+            app:layout_widthPercent="6.15%w"
+            app:layout_heightPercent="3.9%w"
+            app:layout_marginRightPercent="4%w"
+            android:layout_gravity="center"
+            android:background="@mipmap/cleartext"/>
+
+    </com.ysgj.percent.PercentLinearLayout>
+    <com.ysgj.percent.PercentLinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f0f0f0"
+        >
+
+        <TextView
+            app:layout_widthPercent="92%w"
+            android:layout_height="wrap_content"
+            app:layout_paddingTopPercent="3.3%w"
+            app:layout_paddingBottomPercent="3.3%w"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            app:layout_marginTopPercent="8%w"
+            android:background="@drawable/update_pwd_bt"
+            android:textSize="15.5sp"
+            android:text="determine"
+            android:id="@+id/bt"
+            android:gravity="center"
+            />
+    </com.ysgj.percent.PercentLinearLayout>
+
+
+
+</com.ysgj.percent.PercentLinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string  name="rent">租</string>
+    <string  name="sell">卖</string>
+    <string name="language_en" >英文</string>
+    <string name="language_ch" >中文</string>
+    <string name="toolbar_title_homeone" >派单任务表</string>
+    <string name="toolbar_homeone_backtitle">批量转单</string>
+    <string name="prompt">提示</string>
+    <string name="dial">拨打</string>
+    <string name="cancel">取消</string>
+    <string name="customerservice">客服</string>
+    <string name="phone_error">电话号码错误</string>
+    <string name="update_address">修改见面地点</string>
+    <string name="update_time">修改见面时间</string>
+    <string name="update_address_success">修改见面地点成功</string>
+    <string name="homeonedetails_title">派单任务详情</string>
+    <string name="cz">出租</string>
+    <string name="cs">出售</string>
+    <string name="buy">买</string>
+    <string name="update_time_success">修改见面时间成功</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.ysgj.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingLeftPercent="4%w"
+        app:layout_paddingRightPercent="4%w">
+
+        <TextView
+            android:id="@+id/home_one_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#373737"
+            android:singleLine="true"
+            android:textSize="14.5sp"
+            android:layout_toLeftOf="@+id/sk_tv"
+            app:layout_paddingBottomPercent="4%w"
+            app:layout_paddingRightPercent="4%w"
+            app:layout_paddingTopPercent="4%w" />
+
+        <TextView
+            android:id="@+id/sk_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/home_one_id"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="#00b660"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/home_one_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/home_one_id"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#f0f0f0" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/home_two_img"
+            android:layout_below="@id/home_one_line"
+            app:layout_heightPercent="24%w"
+            app:layout_marginBottomPercent="3.2%w"
+            app:layout_marginTopPercent="3.2%w"
+            app:layout_widthPercent="34.7%w"
+            app:placeholderImage="@drawable/zw"
+            app:retryImage="@drawable/zw"
+            app:roundAsCircle="false"
+            app:actualImageScaleType="fitXY"
+            app:failureImage="@drawable/zw"/>
+
+        <com.ysgj.percent.PercentRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/home_two_img"
+            android:layout_alignBottom="@id/home_two_img"
+            android:layout_toRightOf="@id/home_two_img"
+            app:layout_paddingBottomPercent="0.8%w"
+            app:layout_paddingLeftPercent="4%w"
+            app:layout_paddingTopPercent="0.8%w">
+
+            <TextView
+                android:id="@+id/home_two_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textColor="#373737"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:id="@+id/home_two_time"
+                app:layout_marginRightPercent="16%w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#f6b75a"
+                    android:textSize="28px"
+                    android:singleLine="true"
+                    android:id="@+id/price"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:textColor="#f6b75a"
+                    android:textSize="20px"
+                    android:text="AED/YEAR"
+                    android:singleLine="true"
+                    android:layout_gravity="bottom"
+                    android:id="@+id/price_tv"/>
+
+            </LinearLayout>
+
+            <com.ysgj.percent.PercentLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/home_two_time"
+                android:layout_below="@id/home_two_title"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mj"
+                    android:singleLine="true"
+                    android:textColor="#7d7d7d"
+                    android:textSize="12.5sp" />
+
+                <ImageView
+                    android:id="@+id/home_one_location_img"
+                    android:background="@mipmap/home_one_location"
+                    app:layout_heightPercent="4.75%w"
+                    app:layout_marginLeftPercent="5.1%w"
+                    app:layout_widthPercent="3.7%w" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/address"
+                    android:textColor="#7d7d7d"
+                    android:textSize="12.5sp"
+                    android:singleLine="true"
+                    app:layout_marginLeftPercent="1.5%w" />
+            </com.ysgj.percent.PercentLinearLayout>
+
+            <TextView
+                android:id="@+id/img"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                app:layout_heightPercent="12%w"
+                app:layout_widthPercent="12%w"
+                app:layout_marginLeftPercent="5.1%w"
+                android:background="@drawable/round5"
+                android:text="@string/rent"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#00b660"
+                />
+
+
+        </com.ysgj.percent.PercentRelativeLayout>
+
+    </com.ysgj.percent.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@id/home_one_end"
+        android:background="#f0f0f0"
+        app:layout_heightPercent="3%w" />
+</com.ysgj.percent.PercentLinearLayout>

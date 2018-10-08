@@ -1,0 +1,1 @@
+include ':app', ':autolayout', ':takephoto_library', ':multipleimageselect', ':pickerview', ':wheelview', ':baselibrary'

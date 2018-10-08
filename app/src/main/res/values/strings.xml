@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rent" translatable="false">rent</string>
+    <string name="sell" translatable="false">sell</string>
+    <string name="footer_tv" translatable="false">load more</string>
+    <string name="language_en" translatable="false">English</string>
+    <string name="heihei_tv68" translatable="false">The network needs to overturn the wall, please try again later</string>
+    <string name="language_ch" translatable="false">Chinese</string>
+    <string name="toolbar_title_homeone" translatable="false">Dispatch mission list</string>
+    <string name="toolbar_homeone_backtitle" translatable="false">mission batch transfer</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="email_error" translatable="false">Incorrect mailbox format</string>
+    <string name="dial" translatable="false">Call</string>
+    <string name="customerservice" translatable="false">Customer service</string>
+    <string name="phone_error" translatable="false">Wrong number</string>
+    <string name="update_time" translatable="false">Change the appointment time</string>
+    <string name="update_address" translatable="false">Change the appointment place</string>
+    <string name="homeonedetails_title" translatable="false">Dispatch details</string>
+    <string name="cz" translatable="false">Rent out</string>
+    <string name="guan" translatable="false">tube</string>
+    <string name="quyu" translatable="false">Regional chief</string>
+    <string name="cd" translatable="false">Menu</string>
+    <string name="cs" translatable="false">sell</string>
+    <string name="buy" translatable="false">buy</string>
+    <string name="update_address_success" translatable="false">successful to change the appointment place</string>
+    <string name="update_time_success" translatable="false">successful to change the appointment time</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+
+    <string name="cancelreservation_tv1" translatable="false">Please select the season of cancel(required）</string>
+    <string name="cancelreservation_tv2" translatable="false">suddenly I didn t want to viewing</string>
+    <string name="cancelreservation_tv3" translatable="false">There were other emergencies</string>
+    <string name="cancelreservation_tv4" translatable="false">Already found a suitable property</string>
+    <string name="cancelreservation_tv5" translatable="false">Forgot</string>
+    <string name="cancelreservation_tv10" translatable="false">请填写说明</string>
+    <string name="cancelreservation_tv6" translatable="false">Dissatisfied with our services</string>
+    <string name="cancelreservation_tv7" translatable="false">Other</string>
+    <string name="cancelreservation_tv8" translatable="false">Supplementary notes (required)</string>
+    <string name="cancelreservation_tv9" translatable="false">Please write an simple description at least 10 words</string>
+    <string name="bt_tj" translatable="false">submit</string>
+    <string name="bt_qd" translatable="false">confirm</string>
+    <string name="houses_tv23" translatable="false">单元</string>
+    <string name="houses_tv24" translatable="false">请输入单元</string>
+    <string name="casa_tv1" translatable="false">property status</string>
+    <string name="casa_tv21" translatable="false">Rent out</string>
+    <string name="casa_tv22" translatable="false">self-occupy</string>
+    <string name="casa_tv23" translatable="false">Vacant</string>
+    <string name="casa_tv24" translatable="false">existingHouse</string>
+    <string name="casa_tv3" translatable="false">Tenancy contract(optional)</string>
+    <string name="casa_tv4" translatable="false">authorization us contact the tenant for viewing</string>
+    <string name="casa_tv5" translatable="false">Tenant name</string>
+    <string name="casa_tv6" translatable="false">Tenant contact number</string>
+    <string name="casa_tv5_error" translatable="false">Please enter the tenant name</string>
+    <string name="casa_tv6_error" translatable="false">Please enter the tenant s phone number</string>
+    <string name="casa_tv7" translatable="false">not authorization us contact the tenant for viewing</string>
+    <string name="casa_tv8" translatable="false">Reseration tips：</string>
+    <string name="casa_tv9" translatable="false">click to select viewable time</string>
+    <string name="casa_tv10" translatable="false">The above time is not convenient for me, please let the customer service contact me.</string>
+    <string name="casa_tv11" translatable="false">required in advance</string>
+    <string name="casa_tv12" translatable="false">make an appointment with me</string>
+    <string name="casa_tv13" translatable="false">Willing to supply you key to us</string>
+    <string name="casa_tv14" translatable="false">unwillingness to supply you key to us</string>
+    <string name="qx" translatable="false">select all</string>
+    <string name="qsr" translatable="false">please enter</string>
+    <string name="zu" translatable="false">Rent</string>
+    <string name="sq" translatable="false">Collapsing</string>
+    <string name="zk" translatable="false">展开</string>
+    <string name="deliverydetails_tv1" translatable="false">Property attributes</string>
+    <string name="deliverydetails_tv11" translatable="false">Key ownership</string>
+    <string name="deliverydetails_tv9" translatable="false">业主取消预约</string>
+    <string name="deliverydetails_tv13" translatable="false">确定取消订单</string>
+    <string name="deliverydetails_tv2" translatable="false">appointment time</string>
+    <string name="deliverydetails_tv3" translatable="false">appointment place</string>
+    <string name="deliverydetails_tv4" translatable="false">transaction closed countdown</string>
+    <string name="deliverydetails_tv5" translatable="false">mission start countdown</string>
+    <string name="deliverydetails_tv6" translatable="false">Customer booking cancel</string>
+    <string name="deliverydetails_tv7" translatable="false">mission transfer</string>
+    <string name="deliverydetails_tv8" translatable="false">Arrived client</string>
+    <string name="deliverydetails_tv10" translatable="false">参与当前看房</string>
+    <string name="deliverydetails_tv12" translatable="false">我已到达</string>
+    <string name="deliverydetailsnext_tv1" translatable="false">Upload photos of the owner holding the contract</string>
+    <string name="deliverydetailsnext_tv2" translatable="false">Upload the property information</string>
+    <string name="forgetpwd_tv2" translatable="false">get the auth code</string>
+
+    <string name="xyb" translatable="false">next</string>
+
+    <string name="ljqd" translatable="false">Immediately snatch the mission</string>
+    <string name="qxz" translatable="false">Please select</string>
+
+    <string name="home_atv_tv1" translatable="false">Dispatch list</string>
+    <string name="home_atv_tv2" translatable="false">Uploaded</string>
+    <string name="home_atv_tv3" translatable="false">grabTheOrder</string>
+    <string name="home_atv_tv4" translatable="false">Contract form</string>
+    <string name="home_atv_tv5" translatable="false">My</string>
+
+    <string name="houses_tv58" translatable="false">housing package</string>
+    <string name="fwpz_tv1" translatable="false">Maids room</string>
+    <string name="fwpz_tv2" translatable="false">Study room</string>
+    <string name="fwpz_tv3" translatable="false">Storage Room</string>
+    <string name="fwpz_tv4" translatable="false">Balcony</string>
+    <string name="fwpz_tv5" translatable="false">Concierge</string>
+    <string name="fwpz_tv6" translatable="false">view of Water</string>
+    <string name="fwpz_tv7" translatable="false">view of Landmark</string>
+    <string name="fwpz_tv8" translatable="false">Pets allowed</string>
+    <string name="fwpz_tv9" translatable="false">Built in Wardrobes</string>
+    <string name="fwpz_tv10" translatable="false">Gym</string>
+    <string name="fwpz_tv11" translatable="false">swimmingPool</string>
+    <string name="fwpz_tv12" translatable="false">spa</string>
+    <string name="fwpz_tv13" translatable="false">Garden</string>
+    <string name="fwpz_tv14" translatable="false">Walk-in Closet</string>
+    <string name="houses_tv59" translatable="false">Address</string>
+    <string name="houses_tv1" translatable="false">I want to rent</string>
+    <string name="houses_tv2" translatable="false">I want to sell</string>
+    <string name="houses_tv3" translatable="false">House association</string>
+    <string name="houses_tv4" translatable="false">Please enter the association number</string>
+    <string name="houses_tv5" translatable="false">Listing ownership</string>
+    <string name="houses_tv6" translatable="false">POA</string>
+    <string name="houses_tv7" translatable="false">owner</string>
+    <string name="houses_tv8" translatable="false">POA copy</string>
+    <string name="houses_tv9" translatable="false">POA passprot</string>
+    <string name="houses_tv10" translatable="false">POA Visa</string>
+    <string name="houses_tv2_4" translatable="false">Consent of Housing leasing agency</string>
+    <string name="houses_tv11" translatable="false">POA EID</string>
+    <string name="houses_tv12" translatable="false">Title Deed</string>
+    <string name="houses_tv13" translatable="false">Owner passport copy</string>
+    <string name="houses_tv14" translatable="false">Form A confirm</string>
+    <string name="houses_tv15" translatable="false">floor plan (optional)</string>
+    <string name="houses_tv16" translatable="false">General information</string>
+    <string name="houses_tv17" translatable="false">Property type</string>
+    <string name="houses_tv18" translatable="false">Property area</string>
+    <string name="houses_tv19" translatable="false">Community name</string>
+    <string name="houses_tv20" translatable="false">Please enter community name</string>
+    <string name="houses_tv21" translatable="false">building name</string>
+    <string name="houses_tv22" translatable="false">Please enter building name</string>
+    <string name="houses_tv25" translatable="false">Unit</string>
+    <string name="houses_tv26" translatable="false">Please ener the unit number</string>
+    <string name="houses_tv27" translatable="false">Room number</string>
+    <string name="houses_tv28" translatable="false">Please enter the room number</string>
+    <string name="houses_tv29" translatable="false">Size</string>
+    <string name="houses_tv30" translatable="false">Please enter property size</string>
+    <string name="houses_tv31" translatable="false">bedroom number</string>
+    <string name="houses_tv32" translatable="false">bathroom number</string>
+    <string name="houses_tv33" translatable="false">Parking</string>
+    <string name="houses_tv34" translatable="false">decoration condition</string>
+    <string name="houses_tv35" translatable="false">property status</string>
+    <string name="houses_tv36" translatable="false">Property status</string>
+    <string name="houses_tv37" translatable="false">Property amenities</string>
+    <string name="houses_tv38" translatable="false">Selling price details</string>
+    <string name="houses_tv39" translatable="false">mortgage status</string>
+    <string name="houses_tv40" translatable="false">Please select the mortgage status</string>
+    <string name="houses_tv41" translatable="false">Selling price of expect</string>
+    <string name="houses_tv42" translatable="false">Please enter the selling price of your expect</string>
+    <string name="houses_tv43" translatable="false">Lowest selling price</string>
+    <string name="houses_tv44" translatable="false">Please enter the lowest selling price</string>
+    <string name="houses_tv45" translatable="false">automatic response 1</string>
+    <string name="houses_tv46" translatable="false">starting date of rent</string>
+    <string name="houses_tv47" translatable="false">duration of the rent</string>
+    <string name="houses_tv48" translatable="false">Payment schedule</string>
+    <string name="houses_tv49" translatable="false">rent price</string>
+    <string name="houses_tv50" translatable="false">lowest rent amount</string>
+    <string name="houses_tv51" translatable="false">social-media account(optional)</string>
+    <string name="houses_tv52" translatable="false">Please enter the selling price of your expect</string>
+    <string name="houses_tv53" translatable="false">email</string>
+    <string name="houses_tv54" translatable="false">Facebook</string>
+    <string name="houses_tv55" translatable="false">Twitter</string>
+    <string name="houses_tv56" translatable="false">Instagram</string>
+    <string name="houses_tv57" translatable="false">QR code</string>
+    <string name="houses_tv60" translatable="false">studio</string>
+
+    <string name="request_key_error" translatable="false">The key is not in the hands of the region</string>
+
+    <string name="login_title" translatable="false">Outof Log in</string>
+    <string name="login_name" translatable="false">account number：</string>
+    <string name="login_pwd" translatable="false">password：</string>
+    <string name="login_bt" translatable="false">LogIn</string>
+    <string name="forget_pwd" translatable="false">forget password</string>
+
+    <string name="forget_pwd_tv1" translatable="false">Please enter your registered mobile number</string>
+    <string name="forget_pwd_tv2" translatable="false">please enter verification code</string>
+    <string name="forget_pwd_tv3" translatable="false">get verification code</string>
+
+    <string name="code_error1" translatable="false">Failed to send verification code, please try again later</string>
+    <string name="code_success" translatable="false">The verification code has been sent, please check</string>
+
+    <string name="phone_error1" translatable="false">Your phone number failed to get, please re-acquire</string>
+    <string name="user_error1" translatable="false">Account cannot be empty</string>
+    <string name="user_error2" translatable="false">password can not be blank</string>
+    <string name="user_error3" translatable="false">wrong user name or password</string>
+    <string name="user_success1" translatable="false">Successful login, automatically jump to the main interface for you</string>
+
+    <string name="request_success1" translatable="false">Data loading succeeded</string>
+    <string name="request_success2" translatable="false">Successfully modified</string>
+    <string name="request_success3" translatable="false">Request success</string>
+    <string name="request_success_empty" translatable="false">No data</string>
+    <string name="home_one_tv1" translatable="false">mission start countdown:</string>
+    <string name="home_one_tv2" translatable="false">Order number:</string>
+    <string name="key_tv1" translatable="false">At the owner</string>
+    <string name="key_tv2" translatable="false">Key manager</string>
+    <string name="key_tv3" translatable="false">Look outside the salesman</string>
+    <string name="key_tv4" translatable="false">Salesman</string>
+    <string name="bddh" translatable="false">Call</string>
+    <string name="phone_error2" translatable="false">Phone number is abnormal</string>
+
+    <string name="details_id" translatable="false">Listing ID:</string>
+    <string name="details_id1" translatable="false">I want to report</string>
+    <string name="details_id3" translatable="false">Report</string>
+    <string name="details_id2" translatable="false">The listing contains invalid, false information</string>
+    <string name="details_id4" translatable="false">Property review</string>
+    <string name="details_id5" translatable="false">Expand More</string>
+    <string name="details_id6" translatable="false">unit type：</string>
+    <string name="details_id7" translatable="false">Floor number：</string>
+    <string name="details_id8" translatable="false">renovation condition：</string>
+    <string name="details_id9" translatable="false">Payment node：</string>
+    <string name="details_id10" translatable="false">Parking space：</string>
+    <string name="details_id11" translatable="false">check in time：</string>
+    <string name="details_id12" translatable="false">Location and surroundings</string>
+    <string name="details_id13" translatable="false">Listing status</string>
+
+    <string name="fywz" translatable="false">Listing location</string>
+
+    <string name="pl_tv1" translatable="false">Please select a review type</string>
+    <string name="pl_tv2" translatable="false">Listing status</string>
+    <string name="pl_tv3" translatable="false">Service class</string>
+    <string name="pl_tv4" translatable="false">Transfer class</string>
+    <string name="pl_tv5" translatable="false">Property information error</string>
+    <string name="pl_tv6" translatable="false">Sale and change</string>
+
+    <string name="gd_tv1" translatable="false">Grab the order immediately</string>
+
+    <string name="gd_tv2" translatable="false">Finished viewing</string>
+
+    <string name="settings_tv1" translatable="false">Customer service reply</string>
+    <string name="settings_tv2" translatable="false">Appointment time reminder</string>
+    <string name="settings_tv3" translatable="false">Listing push</string>
+    <string name="settings_tv4" translatable="false">Transaction reminder</string>
+    <string name="settings_tv5" translatable="false">For your night break, the above message will not be pushed between 23:00 and 7:00</string>
+
+    <string name="home_one_title1" translatable="false">Look outside</string>
+    <string name="home_one_title2" translatable="false">Out of</string>
+
+    <string name="location_error" translatable="false">Failed to get location information</string>
+
+    <string name="dddd" translatable="false">Arrived</string>
+    <string name="kfdh" translatable="false">consumer hotline</string>
+
+    <string name="request_error_1" translatable="false">Loading failed, please try again later</string>
+    <string name="request_error_2" translatable="false">The modification failed. Please try again later.</string>
+
+    <string name="login_zh" translatable="false">user:</string>
+    <string name="login_mm" translatable="false">password:</string>
+    <string name="request_error" translatable="false">Loading failed, please try again later</string>
+    <string name="request_empty_success" translatable="false">No data</string>
+    <string name="request_success" translatable="false">Loaded successfully</string>
+
+    <string name="zxqk_type1" translatable="false">Bring furniture</string>
+    <string name="zxqk_type2" translatable="false">Without furniture</string>
+
+    <string name="fyzt_type1" translatable="false">Expired room</string>
+    <string name="fyzt_type2" translatable="false">Existing house</string>
+
+    <string name="fwlx_type1" translatable="false">Community</string>
+    <string name="fwlx_type3" translatable="false">flats</string>
+    <string name="fwlx_type2" translatable="false">Villa</string>
+
+    <string name="ge" translatable="false">individual</string>
+
+    <string name="no" translatable="false">no</string>
+    <string name="yes" translatable="false">have</string>
+
+    <string name="hehe1" translatable="false">rentDetails</string>
+    <string name="hehe2" translatable="false">paymentNode</string>
+    <string name="hehe3" translatable="false">starting date of rent</string>
+    <string name="hehe4" translatable="false">Expected rent</string>
+    <string name="hehe5" translatable="false">Minimum rent</string>
+
+    <string name="ci" translatable="false">secondary</string>
+    <string name="pz" translatable="false">photograph</string>
+    <string name="xc" translatable="false">album</string>
+
+    <string name="fwzt_type2" translatable="false">rent</string>
+    <string name="fwzt_type3" translatable="false">liveAlone</string>
+    <string name="fwzt_type1" translatable="false">Vacant</string>
+
+    <string name="edit_error1" translatable="false">Please select the property title certificate photo</string>
+    <string name="edit_error2" translatable="false">Please select the house title certificate passport photo</string>
+    <string name="edit_error3" translatable="false">Please select the rental agency agreement photo</string>
+    <string name="edit_error4" translatable="false">Please select FormA to confirm the photo</string>
+    <string name="edit_error5" translatable="false">Please select a photo of the POA copy</string>
+    <string name="edit_error6" translatable="false">Please select the client s passport photo</string>
+    <string name="edit_error7" translatable="false">Please select the ID card photo of the trustee</string>
+    <string name="edit_error8" translatable="false">Please select the visa photo of the client.</string>
+    <string name="edit_error9" translatable="false">Please select the service title certificate photo</string>
+    <string name="edit_error10" translatable="false">Please select FormA to confirm the photo</string>
+
+    <string name="edit_error11" translatable="false">Please select a house type</string>
+    <string name="edit_error12" translatable="false">Please select a listing area</string>
+    <string name="edit_error37" translatable="false">Please enter the detailed address of the property</string>
+    <string name="edit_error13" translatable="false">Please enter the cell name</string>
+    <string name="edit_error14" translatable="false">Please enter the name of the building</string>
+    <string name="edit_error15" translatable="false">Please enter the floor</string>
+    <string name="edit_error16" translatable="false">Please enter the house number</string>
+    <string name="edit_error17" translatable="false">Please input area</string>
+    <string name="edit_error18" translatable="false">Please select the number of bedrooms.</string>
+    <string name="edit_error19" translatable="false">Please choose the number of bathroom.</string>
+    <string name="edit_error20" translatable="false">Please choose the parking space.</string>
+    <string name="edit_error21" translatable="false">Please choose decoration.</string>
+    <string name="edit_error22" translatable="false">Please select the housing status.</string>
+    <string name="edit_error23" translatable="false">Please select the source status.</string>
+
+    <string name="edit_error24" translatable="false">Please choose payment node.</string>
+    <string name="edit_error25" translatable="false">Please choose the date of the hire date.</string>
+    <string name="edit_error26" translatable="false">Please enter the expected rent.</string>
+    <string name="edit_error27" translatable="false">Please enter the minimum rent.</string>
+    <string name="edit_error28" translatable="false">The minimum sale value must be greater than the expected value</string>
+    <string name="edit_error29" translatable="false">Please choose whether there is a mortgage.</string>
+    <string name="edit_error30" translatable="false">Please enter the expected price.</string>
+    <string name="edit_error31" translatable="false">Please enter the lowest price.</string>
+    <string name="edit_error32" translatable="false">Please enter the parcel information</string>
+    <string name="edit_error33" translatable="false">Please select the area type</string>
+    <string name="edit_error34" translatable="false">Please enter the title certificate</string>
+    <string name="edit_error35" translatable="false">Please enter the property number</string>
+    <string name="edit_error36" translatable="false">Please enter the property developer</string>
+
+    <string name="hehe2_1" translatable="false">Upload credentials (optional)</string>
+
+    <string name="zd_tv1" translatable="false">Please choose the reason for changing the order (required).</string>
+    <string name="zd_tv2" translatable="false">Customer wants to modify the appointment time</string>
+    <string name="zd_tv3" translatable="false">Customers want to modify the appointment place.</string>
+    <string name="zd_tv4" translatable="false">Unable to arrive on time.</string>
+    <string name="zd_tv5" translatable="false">Other</string>
+    <string name="zd_tv6" translatable="false">Supplementary notes (required)</string>
+    <string name="zd_tv7" translatable="false">Please write an simple description at least 10 words</string>
+    <string name="request_error4" translatable="false">The network is abnormal, please try again later</string>
+    <string name="toolbar_title_1" translatable="false">Monthly attendance scheduling</string>
+    <string name="toolbar_title_2" translatable="false">House status</string>
+
+    <string name="five_tv1" translatable="false">Personal center</string>
+    <string name="five_tv2" translatable="false">Personal points</string>
+    <string name="five_tv3" translatable="false">Result broker record</string>
+    <string name="five_tv4" translatable="false">Monthly attendance scheduling</string>
+    <string name="five_tv5" translatable="false">My key</string>
+    <string name="five_tv6" translatable="false">Personal performance</string>
+    <string name="five_tv7" translatable="false">reachingCustomers</string>
+    <string name="five_tv8" translatable="false">uploadAListing</string>
+    <string name="five_tv9" translatable="false">successfulUpload</string>
+    <string name="five_tv10" translatable="false">numberOfOrders</string>
+    <string name="five_tv11" translatable="false">InvitedGift</string>
+    <string name="five_tv12" translatable="false">ModifyTheLoginPassword</string>
+    <string name="five_tv13" translatable="false">modifyMyPhoneNumber</string>
+    <string name="five_tv14" translatable="false">logout</string>
+
+    <string name="fyxx_tv1" translatable="false">ListingInformation</string>
+    <string name="fyxx_tv2" translatable="false">Plot Number</string>
+    <string name="fyxx_tv3" translatable="false">Type of Area</string>
+    <string name="fyxx_tv4" translatable="false">Title Deed Number</string>
+    <string name="fyxx_tv5" translatable="false">Property Number</string>
+    <string name="fyxx_tv6" translatable="false">Master Developer Nam</string>
+
+    <string name="fwlx_tv1_parent" translatable="false">Folk house</string>
+    <string name="fwlx_tv2_parent" translatable="false">business</string>
+    <string name="fwlx_tv1_child1" translatable="false">Apartment</string>
+    <string name="fwlx_tv1_child2" translatable="false">villa</string>
+    <string name="fwlx_tv1_child3" translatable="false">townhouse</string>
+    <string name="fwlx_tv1_child4" translatable="false">attic</string>
+    <string name="fwlx_tv1_child5" translatable="false">duplex</string>
+    <string name="fwlx_tv1_child6" translatable="false">wholeLayer</string>
+    <string name="fwlx_tv1_child7" translatable="false">wholeFloor</string>
+    <string name="fwlx_tv1_child8" translatable="false">singleStoreyVilla</string>
+    <string name="fwlx_tv2_child1" translatable="false">office</string>
+    <string name="fwlx_tv2_child2" translatable="false">neighborhoodStreetFacade</string>
+    <string name="fwlx_tv2_child3" translatable="false">warehouse</string>
+    <string name="fwlx_tv2_child4" translatable="false">store</string>
+    <string name="fwlx_tv2_child5" translatable="false">commercialVilla</string>
+    <string name="fwlx_tv2_child6" translatable="false">exhibitionHall</string>
+    <string name="fwlx_tv2_child7" translatable="false">wholeLayer</string>
+    <string name="fwlx_tv2_child8" translatable="false">wholeFloor</string>
+    <string name="fwlx_tv2_child9" translatable="false">land</string>
+    <string name="fwlx_tv2_child10" translatable="false">publicHouse</string>
+    <string name="fwlx_tv2_child11" translatable="false">hotelApartment</string>
+    <string name="fwlx_tv2_child12" translatable="false">laborCamp</string>
+    <string name="fwlx_tv2_child13" translatable="false">migrantDormitory</string>
+
+    <string name="qrcode_tv1" translatable="false">batchScanCode</string>
+
+    <string name="zdyd_tv1" translatable="false">Auto answer one</string>
+    <string name="zdyd_tv2" translatable="false">Auto answer two</string>
+    <string name="zdyd_tv3" translatable="false">Auto answer three</string>
+
+    <string name="zdyd_tv4" translatable="false">paymentMethod</string>
+    <string name="zdyd_tv5" translatable="false">cash</string>
+    <string name="zdyd_tv6" translatable="false">loan</string>
+    <string name="zdyd_tv7" translatable="false">Whether to complete pre-approval</string>
+
+    <string name="shi" translatable="false">be</string>
+    <string name="fou" translatable="false">deny</string>
+    <string name="toolbar_title3" translatable="false">Improve listing information</string>
+
+    <string name="bj" translatable="false">edit</string>
+
+    <string name="zpsc" translatable="false">Please select the rental duration</string>
+    <string name="srzj" translatable="false">Please enter the rent</string>
+
+    <string name="wc" translatable="false">complete</string>
+
+    <string name="hehe_3" translatable="false">Please choose the owner s hand-held contract half-length photo</string>
+
+    <string name="app_tv1" translatable="false">Failed to get cache record</string>
+    <string name="app_tv2" translatable="false">Please turn on storage permission</string>
+    <string name="app_tv3" translatable="false">consumer hotline</string>
+    <string name="app_tv4" translatable="false">Username can not be empty</string>
+    <string name="app_tv5" translatable="false">password can not be blank</string>
+    <string name="app_tv6" translatable="false">wrong user name or password</string>
+    <string name="app_tv7" translatable="false">Failed to modify mobile number, please try again later</string>
+    <string name="app_tv8" translatable="false">Messages</string>
+    <string name="app_tv9" translatable="false">Set up an automatic answer</string>
+    <string name="app_tv10" translatable="false">Leapfrog</string>
+    <string name="app_tv11" translatable="false">Upload listing success</string>
+    <string name="app_tv12" translatable="false">House details</string>
+    <string name="app_tv13" translatable="false">QR code / barcode</string>
+    <string name="app_tv14" translatable="false">setting</string>
+    <string name="app_tv15" translatable="false">Please select at least one item</string>
+    <string name="app_tv16" translatable="false">Billing details</string>
+    <string name="app_tv17" translatable="false">Successful transfer</string>
+    <string name="app_tv18" translatable="false">Successful login, automatically jump to the main interface for you</string>
+    <string name="app_tv19" translatable="false">rest</string>
+    <string name="app_tv20" translatable="false">My invitation code</string>
+    <string name="app_tv21" translatable="false">My invitation record</string>
+    <string name="app_tv22" translatable="false">Invite friends</string>
+    <string name="app_tv23" translatable="false">Earn rewards</string>
+    <string name="app_tv24" translatable="false">Search for a property key</string>
+    <string name="app_tv25" translatable="false">Generate QR code</string>
+    <string name="app_tv26" translatable="false">Automatically scan the QR code/bar code in the box</string>
+    <string name="app_tv27" translatable="false">Send a single upload listing</string>
+    <string name="app_tv28" translatable="false">Tips: House rental can only set up to three sets of automatic answer</string>
+    <string name="app_tv29" translatable="false">Confirm settings</string>
+    <string name="app_tv30" translatable="false">Tips: House rental can only set up to three sets of automatic answer</string>
+    <string name="app_tv31" translatable="false">The password is successfully modified, and you will be automatically redirected to the login page.</string>
+    <string name="app_tv32" translatable="false">I know</string>
+    <string name="app_tv33" translatable="false">Attendance statistics this month</string>
+    <string name="app_tv34" translatable="false">Attendance days</string>
+    <string name="app_tv35" translatable="false">Number of days off</string>
+    <string name="app_tv36" translatable="false">Unattacked</string>
+    <string name="app_tv37" translatable="false">AskForLeave</string>
+    <string name="app_tv38" translatable="false">Click to grab a single</string>
+    <string name="app_tv39" translatable="false">system information</string>
+    <string name="app_tv40" translatable="false">Tips: The home can only be set up with a set of auto answer</string>
+    <string name="app_tv41" translatable="false">温馨提示：房屋租赁最多只能设置三套自动应答</string>
+
+
+    <string name="date_tv1" translatable="false">sunday</string>
+    <string name="date_tv2" translatable="false">one</string>
+    <string name="date_tv3" translatable="false">two</string>
+    <string name="date_tv4" translatable="false">three</string>
+    <string name="date_tv5" translatable="false">four</string>
+    <string name="date_tv6" translatable="false">five</string>
+    <string name="date_tv7" translatable="false">six</string>
+
+    <string name="settlement_1" translatable="false">Payment amount</string>
+    <string name="settlement_2" translatable="false">Payment date</string>
+    <string name="settlement_3" translatable="false">Bank</string>
+    <string name="settlement_4" translatable="false">Order number</string>
+    <string name="settlement_5" translatable="false">Electronic invoice</string>
+    <string name="settlement_6" translatable="false">Click to view</string>
+    <string name="settlement_7" translatable="false">trading status</string>
+    <string name="settlement_8" translatable="false">If you have any questions, please contact customer service in time.</string>
+    <string name="settlement_9" translatable="false">Successful transaction</string>
+
+    <string name="houses_type1" translatable="false">shoe rack</string>
+    <string name="houses_type2" translatable="false">Floor Lamps</string>
+    <string name="houses_type3" translatable="false">Sofa Chair</string>
+    <string name="houses_type4" translatable="false">back-rest chair</string>
+    <string name="houses_type5" translatable="false">sofa table</string>
+    <string name="houses_type6" translatable="false">book rack</string>
+    <string name="houses_type7" translatable="false">TV</string>
+    <string name="houses_type8" translatable="false">TV stand</string>
+    <string name="houses_type9" translatable="false">Art works</string>
+    <string name="houses_type10" translatable="false">tableware</string>
+    <string name="houses_type11" translatable="false">Wok</string>
+    <string name="houses_type12" translatable="false">Oven</string>
+    <string name="houses_type13" translatable="false">Washing Machine</string>
+    <string name="houses_type14" translatable="false">refrigerator
+</string>
+    <string name="houses_type15" translatable="false">electric stove</string>
+    <string name="houses_type16" translatable="false">gas stove</string>
+    <string name="houses_type17" translatable="false">Microwave</string>
+    <string name="houses_type18" translatable="false">Coffee machine</string>
+    <string name="houses_type19" translatable="false">electric kettle</string>
+    <string name="houses_type20" translatable="false">dish-washing machine</string>
+    <string name="houses_type21" translatable="false">Trash Bin</string>
+    <string name="houses_type22" translatable="false">Dining chair</string>
+    <string name="houses_type23" translatable="false">shower nozzle</string>
+    <string name="houses_type24" translatable="false">bathtub</string>
+    <string name="houses_type25" translatable="false">Bed</string>
+    <string name="houses_type26" translatable="false"> mattress</string>
+    <string name="houses_type27" translatable="false">Bedside Table</string>
+    <string name="houses_type28" translatable="false">bed lamp</string>
+    <string name="houses_type29" translatable="false">Make up table</string>
+    <string name="houses_type30" translatable="false">Curtain</string>
+    <string name="houses_type31" translatable="false">desk</string>
+    <string name="houses_type32" translatable="false">Desk chair</string>
+
+    <string name="initConfig_success" translatable="false">Initialize data successfully</string>
+    <string name="load" translatable="false">Loading...</string>
+    <string name="initConfig" translatable="false">Initializing data..</string>
+    <string name="initConfig_error" translatable="false">Failed to initialize data, please try again</string>
+
+    <string name="msg_type1" translatable="false">system information</string>
+    <string name="msg_type2" translatable="false">key handover</string>
+    <string name="msg_type3" translatable="false">dispatch status</string>
+    <string name="msg_type4" translatable="false">grab status</string>
+    <string name="msg_type5" translatable="false">successful handover</string>
+    <string name="msg_type6" translatable="false">successful delivery</string>
+
+    <string name="heihei_tv7" translatable="false">Turnkey：</string>
+    <string name="heihei_tv8" translatable="false">time：</string>
+    <string name="heihei_tv9" translatable="false">location：</string>
+
+    <string name="msg_type7" translatable="false">successfully grabbed the order</string>
+    <string name="heihei_tv10" translatable="false">installation</string>
+    <string name="heihei_tv11" translatable="false">New message notification</string>
+    <string name="heihei_tv12" translatable="false">already open</string>
+    <string name="heihei_tv13" translatable="false">Message Center</string>
+    <string name="heihei_tv14" translatable="false">Hand over:</string>
+    <string name="heihei_tv15" translatable="false">Receiver:</string>
+    <string name="heihei_tv16" translatable="false">day</string>
+    <string name="heihei_tv17" translatable="false">year</string>
+    <string name="heihei_tv18" translatable="false">month</string>
+    <string name="heihei_tv19" translatable="false">delete</string>
+    <string name="heihei_tv20" translatable="false">scanning code successfully</string>
+    <string name="request_error3" translatable="false">Request failed, please try again later</string>
+
+    <string name="heihei_tv21" translatable="false">Contract signature list</string>
+    <string name="heihei_tv22" translatable="false">mission batch transfer</string>
+    <string name="heihei_tv23" translatable="false">delivery record</string>
+
+    <string name="heihei_tv24" translatable="false">Account has been logged out</string>
+    <string name="heihei_tv25" translatable="false">minute</string>
+    <string name="heihei_tv26" translatable="false">Area</string>
+    <string name="heihei_tv27" translatable="false">List</string>
+    <string name="heihei_tv28" translatable="false">List of grabs</string>
+
+    <string name="heihei_tv29" translatable="false">Scanning code successfully</string>
+    <string name="heihei_tv30" translatable="false">Please refresh the data first, the data is abnormal.</string>
+    <string name="heihei_tv31" translatable="false">GrabOrderDetails</string>
+    <string name="heihei_tv32" translatable="false">The order failed, please choose another suitable order</string>
+    <string name="heihei_tv33" translatable="false">You have successfully won the order！</string>
+    <string name="heihei_tv34" translatable="false">Password modification failed, please try again later</string>
+    <string name="heihei_tv35" translatable="false">抢单列表</string>
+    <string name="heihei_tv36" translatable="false">抢单列表</string>
+    <string name="heihei_tv37" translatable="false">抢单列表</string>
+    <string name="heihei_tv38" translatable="false">New password cannot be empty</string>
+    <string name="heihei_tv39" translatable="false">At least six new passwords</string>
+    <string name="heihei_tv40" translatable="false">Please enter SMS verification code</string>
+    <string name="heihei_tv41" translatable="false">Unable to send verification code, please try again later</string>
+    <string name="heihei_tv42" translatable="false">The verification code has been sent, please check it</string>
+    <string name="heihei_tv43" translatable="false">Your current mobile number is not available. Please return to the main interface</string>
+    <string name="heihei_tv44" translatable="false">SetANewPassword</string>
+    <string name="heihei_tv45" translatable="false">Inconsistent password</string>
+    <string name="heihei_tv46" translatable="false">The password is set successfully and you will automatically jump to the main interface.</string>
+    <string name="heihei_tv47" translatable="false">EditMyPhoneNumber</string>
+    <string name="heihei_tv48" translatable="false">The phone is successfully modified, you will automatically jump to the main interface</string>
+    <string name="heihei_tv49" translatable="false">Please enter a new phone number</string>
+    <string name="heihei_tv50" translatable="false">Phone format error</string>
+    <string name="heihei_tv51" translatable="false">Landed successfully</string>
+
+    <string name="heihei_tv53" translatable="false">password</string>
+    <string name="heihei_tv55" translatable="false">unpaid</string>
+    <string name="heihei_tv56" translatable="false">onlinePayment</string>
+    <string name="heihei_tv57" translatable="false">offlinePayments</string>
+    <string name="heihei_tv58" translatable="false">walletPayment</string>
+    <string name="heihei_tv59" translatable="false">paid</string>
+    <string name="heihei_tv60" translatable="false">seeDetails</string>
+    <string name="heihei_tv61" translatable="false">theKeyIsNotOnThePlatform</string>
+    <string name="heihei_tv62" translatable="false">keyOnThePlatform</string>
+    <string name="heihei_tv67" translatable="false">Unlogged in, unable to view messages</string>
+    <string name="heihei_tv63" translatable="false">handover date:</string>
+    <string name="heihei_tv64" translatable="false">grounding point:</string>
+    <string name="heihei_tv66" translatable="false">The data is abnormal and the next step cannot be performed.</string>
+    <string name="heihei_tv65" translatable="false">Cannot transfer orders 40 minutes before the start of the mission</string>
+
+
+    <string name="skzt_tv1" translatable="false">PendingReview</string>
+    <string name="skzt_tv2" translatable="false">ExaminationPassed</string>
+    <string name="skzt_tv3" translatable="false">AuditNotPassed</string>
+    <string name="skzt_tv4" translatable="false">TemporaryStorage</string>
+
+    <string name="paynode_type1" translatable="false">Pay in January</string>
+    <string name="paynode_type2" translatable="false">Pay in two months</string>
+    <string name="paynode_type3" translatable="false">Pay in April</string>
+    <string name="paynode_type4" translatable="false">Half a year</string>
+    <string name="paynode_type5" translatable="false">Pay every year</string>
+
+</resources>

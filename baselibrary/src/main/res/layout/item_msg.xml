@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30px"
+        android:paddingRight="30px">
+
+        <View
+            android:layout_width="15px"
+            android:layout_height="15px"
+            android:id="@+id/msg_update"
+            android:layout_marginTop="40px"
+            android:background="@drawable/round3"
+            android:layout_gravity="top"></View>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="96px"
+            android:layout_height="96px"
+            app:civ_border_width="0dp"
+            android:background="@mipmap/msg_type1"
+            android:layout_marginLeft="15px"
+            android:id="@+id/msg_img"
+            android:layout_marginTop="22px"
+            android:layout_marginBottom="22px"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px">
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_tv39"
+                    android:textSize="28px"
+                    android:id="@+id/msg_title"
+                    android:textColor="#3c3c3c"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18:00:00"
+                    android:textSize="20px"
+                    android:id="@+id/msg_time"
+                    android:layout_marginRight="6px"
+                    android:textColor="#6e6e6e"
+                    android:layout_gravity="bottom"
+                    />
+                <ImageView
+                    android:layout_width="12px"
+                    android:layout_height="20px"
+                    android:background="@mipmap/enter"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/msg_content"
+                android:text=""
+                android:textSize="24px"
+                android:maxLines="2"
+                android:gravity="bottom"
+                android:layout_marginTop="10px"
+                android:textColor="#a0a0a0"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30px"
+        android:background="#f5f5f5"></View>
+</LinearLayout>

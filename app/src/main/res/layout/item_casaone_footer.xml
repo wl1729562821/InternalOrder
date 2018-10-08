@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#f5f5f5"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26px"
+        android:textColor="#666666"
+        android:text="@string/casa_tv8"
+        android:paddingLeft="70px"
+        android:layout_marginTop="41px"
+        android:layout_marginBottom="3px"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26px"
+        android:textColor="#666666"
+        android:text="点击选择可看房时间"
+        android:paddingLeft="70px"
+        android:layout_marginBottom="41px"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:background="#ebebeb" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="40px"
+            android:layout_height="40px"
+            android:id="@+id/footer_check_img"
+            android:background="@drawable/check_bg"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="@string/qx"
+            android:id="@+id/footer_check_tv"
+            android:layout_marginLeft="23px"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30px"
+        android:paddingBottom="30px"
+        android:paddingLeft="70px"
+        android:paddingRight="70px"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="38px"
+            android:layout_height="38px"
+            android:id="@+id/footer_check_img1"
+            android:background="@mipmap/check_selected"
+            />
+        <TextView
+            android:id="@+id/footer_check_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="@string/casa_tv10"
+            android:layout_marginLeft="23px"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ebebeb"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="@string/casa_tv11"
+            android:paddingTop="54px"
+            android:paddingBottom="54px"
+            android:layout_marginLeft="70px"
+            />
+
+        <EditText
+            android:textCursorDrawable="@drawable/edit_cursor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32px"
+            android:textColor="#666666"
+            android:text="1"
+            android:background="@drawable/houses_bt1"
+            android:paddingLeft="42px"
+            android:paddingRight="42px"
+            android:paddingTop="7px"
+            android:paddingBottom="7px"
+            android:maxLength="10"
+            android:inputType="number"
+            android:layout_marginLeft="15px"
+            android:layout_marginRight="15px"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28px"
+            android:textColor="#666666"
+            android:text="@string/casa_tv12"
+            android:paddingTop="54px"
+            android:paddingBottom="54px"
+            />
+
+    </LinearLayout>
+</LinearLayout>

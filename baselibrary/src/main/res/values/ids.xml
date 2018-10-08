@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="toolbar_title" type="id" format="string"></item>
+    <item name="toolbar_back_img" type="id" format="string"></item>
+    <item name="toolbar_back" type="id" format="string"></item>
+    <item name="toolbar_setting" type="id" format="string"></item>
+    <item name="toolbar_setting_title" type="id" format="string"></item>
+    <item name="toolbar" type="id" format="string"></item>
+    <item name="dial_phone" type="id" format="string"></item>
+    <item name="refresh_layout" type="id" format="string"></item>
+</resources>

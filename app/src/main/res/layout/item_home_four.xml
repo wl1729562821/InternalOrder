@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.ysgj.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_paddingLeftPercent="4%w"
+        app:layout_paddingBottomPercent="4%w"
+        app:layout_paddingRightPercent="4%w">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="13sp"
+            app:layout_paddingTopPercent="3.35%w"
+            android:textColor="#5f5f5f"
+            android:id="@+id/home_one_id"/>
+
+        <View
+            app:layout_marginTopPercent="3.35%w"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/home_one_id"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/home_one_line"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="15.5sp"
+            android:singleLine="true"
+            app:layout_marginTopPercent="2.1%w"
+            android:textColor="#5f5f5f"
+            app:layout_marginRightPercent="11.5%w"
+            android:id="@+id/home_one_name"
+            android:layout_below="@+id/home_one_line"/>
+
+        <com.ysgj.percent.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_marginTopPercent="2%w"
+            android:id="@+id/home_one_location_parent"
+            android:layout_below="@id/home_one_name"
+            android:layout_alignLeft="@id/home_one_name"
+            android:gravity="center"
+            android:layout_alignRight="@id/home_one_name">
+
+            <ImageView
+                android:background="@mipmap/home_one_location"
+                app:layout_widthPercent="2.7%w"
+                app:layout_heightPercent="3.75%w"
+                android:layout_gravity="center"
+                android:id="@+id/home_one_location_img" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="null"
+                android:gravity="center_vertical"
+                android:textSize="12.5sp"
+                app:layout_paddingLeftPercent="2.3%w"
+                android:textColor="#878787"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/home_one_location_img"
+                android:id="@+id/home_one_location"/>
+
+        </com.ysgj.percent.PercentLinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="14.5sp"
+            app:layout_marginTopPercent="2.1%w"
+            android:textColor="#5f5f5f"
+            android:maxLines="2"
+            android:id="@+id/home_one_location_detailed"
+            android:layout_below="@id/home_one_location_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            app:layout_marginTopPercent="2.7%w"
+            android:textColor="#919191"
+            android:singleLine="true"
+            android:id="@+id/home_one_time"
+            android:layout_below="@id/home_one_location_detailed"/>
+
+        <View
+            app:layout_marginTopPercent="4%w"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f0f0f0"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/home_one_time"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/home_one_line1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            app:layout_paddingRightPercent="55%w"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:text="@string/deliverydetails_tv4"
+            android:gravity="center_vertical"
+            android:textSize="12.5sp"
+            app:layout_marginTopPercent="4%w"
+            android:textColor="#7d7d7d"
+            android:id="@+id/home_one_tv1"
+            android:layout_below="@id/home_one_line1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:text="@string/deliverydetails_tv5"
+            android:gravity="center_vertical"
+            app:layout_paddingLeftPercent="55%w"
+            android:textSize="12.5sp"
+            app:layout_marginTopPercent="4%w"
+            android:textColor="#7d7d7d"
+            android:id="@+id/home_one_tv2"
+            android:layout_below="@id/home_one_line1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_paddingLeftPercent="13.5%w"
+            app:layout_paddingRightPercent="4%w"
+            android:textSize="12.5sp"
+            app:layout_marginTopPercent="2.93%w"
+            android:textColor="#ff3366"
+            android:layout_below="@id/home_one_tv1"
+            android:id="@+id/home_one_end"/>
+
+        <TextView
+            android:id="@+id/home_one_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:layout_paddingLeftPercent="66%w"
+            app:layout_marginRightPercent="4%w"
+            android:textSize="12.5sp"
+            app:layout_marginTopPercent="2.93%w"
+            android:textColor="#ff3366"
+            android:layout_below="@id/home_one_tv1"/>
+
+        <TextView
+            android:background="@mipmap/sell"
+            app:layout_widthPercent="8%w"
+            android:id="@+id/img"
+            app:layout_heightPercent="8%w"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            app:layout_marginRightPercent="1%w"
+            android:layout_alignTop="@id/home_one_name"
+            android:layout_alignParentRight="true"
+             />
+
+    </com.ysgj.percent.PercentRelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        app:layout_heightPercent="3%w"
+        android:background="#f0f0f0"
+        android:layout_below="@id/home_one_end"
+        />
+</com.ysgj.percent.PercentLinearLayout>

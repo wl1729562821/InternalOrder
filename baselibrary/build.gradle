@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            // 设置支持的 SO 库构架，一般而言，取你所有的库支持的构架的`交集`。
+            abiFilters 'armeabi','armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets.main {
+        jniLibs.srcDirs = ['libs'] // <-- Set your folder here!
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':autolayout')
+    api deps.kotlin.stdlib
+    api 'com.squareup.retrofit2:retrofit:2.1.0'
+    api 'com.squareup.retrofit2:converter-gson:2.1.0'
+    api 'com.squareup.okhttp3:okhttp:3.4.1'
+    api 'com.android.support:recyclerview-v7:27.0.2'
+    api 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    api 'io.reactivex.rxjava2:rxjava:2.x.x'
+    api 'com.android.support:appcompat-v7:27.0.2'
+    api 'org.greenrobot:eventbus:3.1.1'
+    api 'cn.bingoogolapple:bga-qrcode-zxing:1.2.5'
+    api 'pub.devrel:easypermissions:1.2.0'
+    api 'cn.finalteam.rxgalleryfinal:library:1.0.9'
+    api 'top.zibin:Luban:1.1.8'
+    api 'com.facebook.fresco:fresco:1.10.0'
+    api 'com.android.support:design:27.1.0'
+    api 'com.github.zcweng:switch-button:0.0.3@aar'
+    api('cn.qqtheme.framework:WheelPicker:1.5.6') {
+        exclude group: 'com.android.support'
+    }
+    api project(':pickerview')
+    api project(':wheelview')
+    api 'com.android.support:multidex:1.0.3'
+    //PushSDK必须依赖基础组件库，所以需要加入对应依赖
+    api 'com.umeng.sdk:common:1.5.3'
+    //PushSDK必须依赖utdid库，所以需要加入对应依赖
+    api 'com.umeng.sdk:utdid:1.1.5.3'
+    //PushSDK
+    api 'com.umeng.sdk:push:4.2.0'
+    api 'de.hdodenhof:circleimageview:2.2.0'
+    api 'com.google.android.gms:play-services:12.0.1'
+
+    implementation 'com.github.promeg:tinypinyin:2.0.3'
+    api 'android.arch.paging:runtime:1.0.1'
+
+}

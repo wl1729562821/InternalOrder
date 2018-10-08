@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include android:layout_height="wrap_content"
+        android:layout_width="match_parent" layout="@layout/toolbar"
+        android:id="@id/toolbar"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/refresh_layout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff">
+
+            <com.ysgj.percent.PercentLinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.ysgj.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="26.7%w">
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        app:layout_widthPercent="16.8%w"
+                        app:layout_heightPercent="16.8%w"
+                        android:layout_marginLeft="50px"
+                        android:layout_marginRight="39px"
+                        android:id="@+id/home_five_avatar"
+                        android:layout_centerVertical="true"
+                        app:roundAsCircle="true"
+                        app:retryImage="@mipmap/tx"
+                        app:actualImageScaleType="fitXY"
+                        app:failureImage="@mipmap/tx"
+                        android:background="@mipmap/tx"
+                        app:placeholderImage="@mipmap/tx" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/home_five_avatar"
+                        android:textColor="#373737"
+                        android:textSize="15sp"
+                        android:layout_marginRight="39px"
+                        android:layout_toLeftOf="@+id/header_right"
+                        android:layout_alignTop="@id/home_five_avatar"
+                        app:layout_marginTopPercent="0.1%w"
+                        android:id="@+id/home_five_name"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_toLeftOf="@id/header_right"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:layout_toRightOf="@+id/home_five_avatar"
+                        android:layout_alignBottom="@id/home_five_avatar"
+                        android:textColor="#9b9b9b"
+                        android:layout_marginRight="39px"
+                        android:textSize="12sp"
+                        android:id="@+id/home_five_location"
+                        app:layout_marginBottomPercent="0.1%w"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/header_right"
+                        android:layout_marginRight="39px"
+                        android:text=""
+                        android:layout_toRightOf="@+id/home_five_avatar"
+                        android:layout_below="@id/home_five_name"
+                        android:layout_above="@id/home_five_location"
+                        android:textColor="#5f5f5f"
+                        android:gravity="center_vertical"
+                        android:textSize="12.5sp"
+                        android:id="@+id/home_five_phone"
+                        />
+                    <RelativeLayout
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignTop="@+id/home_five_avatar"
+                        android:layout_alignBottom="@+id/home_five_avatar"
+                        android:gravity="right"
+                        android:layout_marginTop="4px"
+                        android:layout_marginBottom="4px"
+                        android:id="@+id/header_right">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/five_tv2"
+                            android:textColor="#b9b9b9"
+                            android:textSize="12sp"
+                            android:layout_marginRight="70px"
+                            android:gravity="right"
+                            android:id="@+id/jf"
+                            />
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignLeft="@id/jf"
+                            android:layout_alignRight="@id/jf"
+                            android:layout_centerVertical="true">
+                            <ImageView
+                                android:layout_width="44px"
+                                android:layout_height="41px"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:background="@mipmap/home_five_img"
+                                />
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="0Minute"
+                            android:textColor="#5f5f5f"
+                            android:textSize="12.5sp"
+                            android:singleLine="true"
+                            android:layout_alignRight="@id/jf"
+                            android:gravity="center"
+                            android:id="@+id/jf_tv"
+                            android:layout_alignParentBottom="true"
+                            />
+                    </RelativeLayout>
+                </com.ysgj.percent.PercentRelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="2.7%w"
+                    android:background="#f5f5f5"/>
+
+                <com.ysgj.percent.PercentRelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/five_tv1"
+                        android:textColor="#5f5f5f"
+                        android:textSize="15sp"
+                        android:singleLine="true"
+                        android:layout_marginLeft="40px"
+                        android:id="@+id/home_five_tv"
+                        app:layout_marginTopPercent="4%w"
+                        />
+
+                    <ImageView
+                        app:layout_widthPercent="10.13%w"
+                        app:layout_heightPercent="10.13%w"
+                        app:layout_marginLeftPercent="11.601%w"
+                        android:layout_below="@id/home_five_tv"
+                        android:id="@+id/home_five_child1_img"
+                        app:layout_marginTopPercent="3%w"
+                        app:layout_marginBottomPercent="3%w"
+                        android:background="@mipmap/home_five_child1"
+                        />
+                    <ImageView
+                        app:layout_widthPercent="10.13%w"
+                        app:layout_heightPercent="10.13%w"
+                        android:layout_below="@id/home_five_tv"
+                        android:id="@+id/home_five_child2_img"
+                        app:layout_marginTopPercent="3%w"
+                        android:layout_centerHorizontal="true"
+                        app:layout_marginBottomPercent="3%w"
+                        android:background="@mipmap/home_five_child2"
+                        />
+                    <ImageView
+                        app:layout_widthPercent="10.13%w"
+                        app:layout_heightPercent="10.13%w"
+                        android:layout_below="@id/home_five_tv"
+                        android:id="@+id/home_five_child3_img"
+                        app:layout_marginTopPercent="3%w"
+                        app:layout_marginBottomPercent="3%w"
+                        android:layout_alignParentRight="true"
+                        app:layout_marginRightPercent="11.601%w"
+                        android:background="@mipmap/home_five_child3"
+                        />
+                    <TextView
+                        app:layout_widthPercent="33.333%w"
+                        android:layout_height="wrap_content"
+                        android:text="@string/five_tv3"
+                        android:textColor="#878787"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:textSize="12.5sp"
+                        android:layout_below="@+id/home_five_child1_img"
+                        android:id="@+id/home_five_child1"
+                        app:layout_marginBottomPercent="4.3%w"
+                        />
+                    <TextView
+                        app:layout_widthPercent="33.333%w"
+                        android:layout_height="wrap_content"
+                        android:text="@string/five_tv4"
+                        android:textColor="#878787"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:textSize="12.5sp"
+                        android:layout_below="@+id/home_five_child1_img"
+                        android:id="@+id/home_five_child2"
+                        android:layout_centerHorizontal="true"
+                        app:layout_marginBottomPercent="4.3%w"
+                        />
+                    <TextView
+                        app:layout_widthPercent="33.333%w"
+                        android:layout_height="wrap_content"
+                        android:text="@string/five_tv5"
+                        android:textColor="#878787"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:textSize="12.5sp"
+                        android:layout_below="@+id/home_five_child1_img"
+                        android:id="@+id/home_five_child3"
+                        android:layout_alignParentRight="true"
+                        app:layout_marginBottomPercent="4.3%w"
+                        />
+
+                </com.ysgj.percent.PercentRelativeLayout>
+                <View
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="2.7%w"
+                    android:background="#f5f5f5"/>
+
+                <com.ysgj.percent.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    app:layout_paddingBottomPercent="4.3%w"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/five_tv6"
+                        android:textColor="#5f5f5f"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="40px"
+                        android:id="@+id/home_five_tv2"
+                        app:layout_marginTopPercent="4%w"
+                        />
+
+                    <com.ysgj.percent.PercentLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.ysgj.percent.PercentRelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            app:layout_heightPercent="25.4%w"
+                            android:layout_marginLeft="21px"
+                            app:layout_marginTopPercent="3%w"
+                            android:layout_marginRight="30px"
+                            app:layout_paddingTopPercent="3.5%w"
+                            app:layout_paddingLeftPercent="4.5%w"
+                            android:background="@mipmap/home_five_rect"
+                            android:id="@+id/home_five_child4"
+                            android:layout_below="@id/home_five_tv2">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/five_tv7"
+                                android:textColor="#666666"
+                                android:textSize="12sp"
+                                android:singleLine="true"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#00b660"
+                                android:textSize="24sp"
+                                android:singleLine="true"
+                                android:id="@+id/child_1"
+                                android:layout_centerInParent="true"
+                                />
+
+                        </com.ysgj.percent.PercentRelativeLayout>
+
+                        <com.ysgj.percent.PercentRelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            app:layout_heightPercent="25.4%w"
+                            android:layout_marginRight="21px"
+                            app:layout_marginTopPercent="3%w"
+                            android:layout_alignParentRight="true"
+                            app:layout_paddingTopPercent="3.5%w"
+                            app:layout_paddingLeftPercent="4.5%w"
+                            android:background="@mipmap/home_five_rect"
+                            android:id="@+id/home_five_child5"
+                            android:layout_alignTop="@+id/home_five_child4"
+                            >
+
+                            <TextView
+                                android:singleLine="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/five_tv8"
+                                android:textColor="#666666"
+                                android:textSize="12sp"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#00b660"
+                                android:textSize="24sp"
+                                android:id="@+id/child_2"
+                                android:layout_centerInParent="true"
+                                />
+
+                        </com.ysgj.percent.PercentRelativeLayout>
+
+                    </com.ysgj.percent.PercentLinearLayout>
+
+                    <com.ysgj.percent.PercentLinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layout_marginTopPercent="0.5%w">
+
+                        <com.ysgj.percent.PercentRelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            app:layout_heightPercent="25.4%w"
+                            android:layout_marginLeft="21px"
+                            app:layout_paddingTopPercent="3.5%w"
+                            app:layout_paddingLeftPercent="4.5%w"
+                            android:layout_marginRight="30px"
+                            android:background="@mipmap/home_five_rect"
+                            android:id="@+id/home_five_child6"
+                            android:layout_below="@id/home_five_child4">
+
+                            <TextView
+                                android:singleLine="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/five_tv9"
+                                android:textColor="#666666"
+                                android:textSize="12sp"
+                                />
+
+                            <TextView
+                                android:singleLine="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#00b660"
+                                android:textSize="24sp"
+                                android:id="@+id/child_3"
+                                android:layout_centerInParent="true"
+                                />
+
+                        </com.ysgj.percent.PercentRelativeLayout>
+                        <com.ysgj.percent.PercentRelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            app:layout_heightPercent="25.4%w"
+                            android:layout_marginRight="21px"
+                            android:layout_alignParentRight="true"
+                            app:layout_paddingTopPercent="3.5%w"
+                            app:layout_paddingLeftPercent="4.5%w"
+                            android:background="@mipmap/home_five_rect"
+                            android:id="@+id/home_five_child7"
+                            android:layout_alignTop="@+id/home_five_child6"
+                            >
+
+                            <TextView
+                                android:singleLine="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/five_tv10"
+                                android:textColor="#666666"
+                                android:textSize="12sp"
+                                />
+
+                            <TextView
+                                android:singleLine="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="#00b660"
+                                android:textSize="24sp"
+                                android:id="@+id/child_4"
+                                android:layout_centerInParent="true"
+                                />
+
+                        </com.ysgj.percent.PercentRelativeLayout>
+
+                    </com.ysgj.percent.PercentLinearLayout>
+
+                </com.ysgj.percent.PercentLinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="2.7%w"
+                    android:background="#f5f5f5"/>
+
+                <com.ysgj.percent.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="13.3333%w"
+                    android:id="@+id/home_five_invite"
+                    app:layout_paddingLeftPercent="4%w"
+                    app:layout_paddingRightPercent="4%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:text="@string/five_tv11"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#5f5f5f"/>
+
+                    <ImageView
+                        android:background="@mipmap/enter"
+                        app:layout_widthPercent="2.2%w"
+                        app:layout_heightPercent="3.5%w"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_above="@id/home_one_line"/>
+
+                </com.ysgj.percent.PercentLinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fafafa"/>
+                <com.ysgj.percent.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="13.3333%w"
+                    android:id="@+id/home_five_updatepwd"
+                    app:layout_paddingLeftPercent="4%w"
+                    app:layout_paddingRightPercent="4%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:text="@string/five_tv12"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#5f5f5f"/>
+
+                    <ImageView
+                        android:background="@mipmap/enter"
+                        app:layout_widthPercent="2.2%w"
+                        app:layout_heightPercent="3.5%w"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_above="@id/home_one_line"/>
+
+                </com.ysgj.percent.PercentLinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#fafafa"/>
+                <com.ysgj.percent.PercentLinearLayout
+                    android:layout_width="match_parent"
+                    app:layout_heightPercent="13.3333%w"
+                    app:layout_paddingLeftPercent="4%w"
+                    android:id="@+id/home_five_updatephone"
+                    app:layout_paddingRightPercent="4%w">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:text="@string/five_tv13"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:textColor="#5f5f5f"/>
+
+                    <ImageView
+                        android:background="@mipmap/enter"
+                        app:layout_widthPercent="2.2%w"
+                        app:layout_heightPercent="3.5%w"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_above="@id/home_one_line"/>
+
+                </com.ysgj.percent.PercentLinearLayout>
+
+                <com.ysgj.percent.PercentLinearLayout
+                    android:background="#f7f7f7"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        app:layout_widthPercent="92%w"
+                        app:layout_heightPercent="12.5%w"
+                        android:layout_gravity="center"
+                        android:text="@string/five_tv14"
+                        android:gravity="center"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:id="@+id/exit"
+                        app:layout_marginBottomPercent="2%w"
+                        app:layout_marginTopPercent="5.4%w"
+                        android:background="@drawable/home_five_bt"
+                        />
+
+                </com.ysgj.percent.PercentLinearLayout>
+
+            </com.ysgj.percent.PercentLinearLayout>
+
+        </ScrollView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</com.ysgj.percent.PercentLinearLayout>

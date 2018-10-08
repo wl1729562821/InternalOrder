@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/footer_tv"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:paddingTop="22px"
+        android:textColor="#4b4b4b"
+        android:paddingBottom="22px"/>
+
+</LinearLayout>

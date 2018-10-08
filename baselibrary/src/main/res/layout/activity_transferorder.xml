@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@id/toolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <include
+        android:id="@+id/toolbar2"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="30px"
+                    android:paddingTop="26px"
+                    android:paddingBottom="26px"
+                    android:maxLines="2"
+                    android:text="@string/zd_tv1"
+                    android:textColor="#666666"
+                    android:textSize="28px" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f5f5f5" />
+
+                <LinearLayout
+                    android:id="@+id/check1_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="30px"
+                        android:paddingTop="26px"
+                        android:singleLine="true"
+                        android:paddingBottom="26px"
+                        android:text="@string/zd_tv2"
+                        android:textColor="#373737"
+                        android:textSize="28px" />
+
+                    <ImageView
+                        android:id="@+id/check1_img"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30px"
+                        android:background="@drawable/check_bg" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f5f5f5"/>
+                <LinearLayout
+                    android:id="@+id/check2_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zd_tv3"
+                        android:textColor="#373737"
+                        android:singleLine="true"
+                        android:padding="30px"
+                        android:paddingBottom="26px"
+                        android:paddingTop="26px"
+                        android:textSize="28px"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/check2_img"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30px"
+                        android:background="@drawable/check_bg"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f5f5f5"/>
+                <LinearLayout
+                    android:id="@+id/check3_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zd_tv4"
+                        android:textColor="#373737"
+                        android:padding="30px"
+                        android:singleLine="true"
+                        android:paddingBottom="26px"
+                        android:paddingTop="26px"
+                        android:textSize="28px"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/check3_img"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30px"
+                        android:background="@drawable/check_bg"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#f5f5f5"/>
+                <LinearLayout
+                    android:id="@+id/check4_parent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/zd_tv5"
+                        android:textColor="#373737"
+                        android:padding="30px"
+                        android:singleLine="true"
+                        android:paddingBottom="26px"
+                        android:paddingTop="26px"
+                        android:textSize="28px"
+                        android:layout_gravity="center"/>
+
+                    <ImageView
+                        android:id="@+id/check4_img"
+                        android:layout_width="40px"
+                        android:layout_height="40px"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="30px"
+                        android:background="@drawable/check_bg"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10px"
+                    android:background="#f5f5f5"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/img_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="30px"
+                        android:paddingTop="26px"
+                        android:singleLine="true"
+                        android:paddingBottom="26px"
+                        android:text="@string/zd_tv6"
+                        android:textColor="#666666"
+                        android:textSize="28px" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200px"
+                        android:layout_marginLeft="30px"
+                        android:layout_marginRight="30px"
+                        android:background="#f5f5f5"
+                        android:layout_marginBottom="30px">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="@string/zd_tv7"
+                            android:textColorHint="#969699"
+                            android:textSize="24px"
+                            android:gravity="top|left"
+                            android:padding="20px"
+                            android:layout_below="@+id/login_title"
+                            android:background="@null"
+                            android:id="@+id/value"
+                            android:textCursorDrawable="@drawable/edit_cursor"
+                            android:layout_above="@id/login_name_line"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="20px"
+                            android:text="0/100"
+                            android:maxLength="100"
+                            android:id="@+id/size"
+                            android:textColor="#a0a0a0"
+                            android:textSize="24px"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"/>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10px"
+                        android:background="#f5f5f5"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="90px">
+
+                    <TextView
+                        android:paddingLeft="30px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="90px"
+                        android:paddingTop="26px"
+                        android:paddingBottom="26px"
+                        android:text="@string/hehe2_1"
+                        android:textColor="#666666"
+                        android:textSize="28px" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/image_rv"
+                        android:layout_below="@id/tv3"
+                        android:layout_marginLeft="30px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                app:placeholderImage="@mipmap/upload_default"
+                                app:retryImage="@mipmap/upload_default"
+                                app:roundAsCircle="false"
+                                android:background="@mipmap/upload_default"
+                                app:actualImageScaleType="fitCenter"
+                                app:failureImage="@mipmap/upload_default"
+                                app:roundedCornerRadius="5dp"
+                                android:id="@+id/form_img1"
+                                android:layout_marginRight="30px"
+                                android:visibility="gone"
+                                />
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                app:placeholderImage="@mipmap/upload_default"
+                                app:retryImage="@mipmap/upload_default"
+                                app:roundAsCircle="false"
+                                android:background="@mipmap/upload_default"
+                                app:actualImageScaleType="fitCenter"
+                                app:failureImage="@mipmap/upload_default"
+                                app:roundedCornerRadius="5dp"
+                                android:id="@+id/form_img2"
+                                android:visibility="gone"
+                                android:layout_marginRight="30px"
+                                />
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                app:placeholderImage="@mipmap/upload_default"
+                                app:retryImage="@mipmap/upload_default"
+                                app:roundAsCircle="false"
+                                android:background="@mipmap/upload_default"
+                                app:actualImageScaleType="fitCenter"
+                                app:failureImage="@mipmap/upload_default"
+                                app:roundedCornerRadius="5dp"
+                                android:id="@+id/form_img3"
+                                android:visibility="gone"
+                                android:layout_marginRight="30px"
+                                />
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                app:placeholderImage="@mipmap/upload_default"
+                                app:retryImage="@mipmap/upload_default"
+                                app:roundAsCircle="false"
+                                android:background="@mipmap/upload_default"
+                                app:actualImageScaleType="fitCenter"
+                                app:failureImage="@mipmap/upload_default"
+                                app:roundedCornerRadius="5dp"
+                                android:id="@+id/form_img4"
+                                android:visibility="gone"
+                                android:layout_marginRight="30px"
+                                />
+                            <com.facebook.drawee.view.SimpleDraweeView
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                app:placeholderImage="@mipmap/upload_default"
+                                app:retryImage="@mipmap/upload_default"
+                                app:roundAsCircle="false"
+                                android:background="@mipmap/upload_default"
+                                app:actualImageScaleType="fitCenter"
+                                app:failureImage="@mipmap/upload_default"
+                                app:roundedCornerRadius="5dp"
+                                android:id="@+id/form_img5"
+                                android:visibility="gone"
+                                android:layout_marginRight="30px"
+                                />
+
+                            <RelativeLayout
+                                android:layout_width="200px"
+                                android:layout_height="200px"
+                                android:background="#f5f5f5"
+                                android:layout_marginRight="30px"
+                                android:id="@+id/poi_img_add7">
+
+                                <ImageView
+                                    android:layout_width="80px"
+                                    android:layout_height="80px"
+                                    android:layout_centerInParent="true"
+                                    android:background="@mipmap/houses_add" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <cn.yc.library.view.DragFloatActionButton
+            android:background="@mipmap/img1"
+            android:layout_height="118px"
+            android:layout_width="118px"
+            android:layout_alignParentRight="true"
+            android:id="@+id/dial_phone"
+            android:layout_marginRight="41px"
+            android:layout_marginBottom="75px"
+            android:layout_alignParentBottom="true"
+            android:layout_above="@+id/deliverydetails_footer"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="27px"
+        android:textSize="36px"
+        android:textColor="#fff"
+        android:text="@string/bt_tj"
+        android:id="@+id/bt"
+        android:gravity="center"
+        android:background="@drawable/houses_bt"
+        />
+</LinearLayout>

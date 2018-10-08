@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rent" translatable="false">租</string>
+    <string name="sell" translatable="false">卖</string>
+
+    <string name="language_en" translatable="false">英文</string>
+
+    <string name="language_ch" translatable="false">中文</string>
+    <string name="toolbar_title_homeone" translatable="false">派单任务表</string>
+    <string name="toolbar_homeone_backtitle" translatable="false">批量转单</string>
+    <string name="cancel" translatable="false">取消</string>
+    <string name="dial" translatable="false">拨打</string>
+    <string name="customerservice" translatable="false">客服</string>
+    <string name="phone_error" translatable="false">电话号码错误</string>
+    <string name="update_time" translatable="false">修改见面时间</string>
+    <string name="update_address" translatable="false">修改见面地点</string>
+    <string name="homeonedetails_title" translatable="false">派单任务详情</string>
+    <string name="cz" translatable="false">出租</string>
+    <string name="guan" translatable="false">管</string>
+    <string name="quyu" translatable="false">区域长</string>
+    <string name="cd" translatable="false">菜单</string>
+    <string name="cs" translatable="false">出售</string>
+    <string name="zd_tv1" translatable="false">请选择转单理由 (必填)</string>
+    <string name="zd_tv2" translatable="false">客户希望修改预约见面时间</string>
+    <string name="zd_tv3" translatable="false">客户希望修改预约见面地点.</string>
+    <string name="zd_tv4" translatable="false">无法按时到达</string>
+    <string name="zd_tv5" translatable="false">其他</string>
+    <string name="zd_tv6" translatable="false">补充说明（必填）</string>
+    <string name="zd_tv7" translatable="false">请至少填写10个字的简单描</string>
+
+    <string name="buy" translatable="false">买</string>
+    <string name="update_address_success" translatable="false">修改见面地点成功</string>
+    <string name="update_time_success" translatable="false">修改见面时间成功</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+
+    <string name="cancelreservation_tv1" translatable="false">请选择取消原因 (必填)</string>
+    <string name="cancelreservation_tv2" translatable="false">突然不想看房</string>
+    <string name="cancelreservation_tv3" translatable="false">有其他紧急事件发生</string>
+    <string name="cancelreservation_tv4" translatable="false">已经找到合适的房源</string>
+    <string name="cancelreservation_tv5" translatable="false">忘记了</string>
+    <string name="cancelreservation_tv10" translatable="false">请填写说明</string>
+    <string name="cancelreservation_tv6" translatable="false">对平台服务不满意</string>
+    <string name="cancelreservation_tv7" translatable="false">其他</string>
+    <string name="cancelreservation_tv8" translatable="false">补充说明 (必填)</string>
+    <string name="cancelreservation_tv9" translatable="false">请至少填写10个字的简单描述</string>
+    <string name="bt_tj" translatable="false">提交</string>
+    <string name="bt_qd" translatable="false">确定</string>
+
+    <string name="casa_tv1" translatable="false">房屋状态</string>
+    <string name="casa_tv21" translatable="false">出租</string>
+    <string name="casa_tv22" translatable="false">自住</string>
+    <string name="casa_tv23" translatable="false">空房</string>
+    <string name="casa_tv24" translatable="false">准现房</string>
+    <string name="casa_tv3" translatable="false">房屋租赁合同（选填）</string>
+    <string name="casa_tv4" translatable="false">授权平台联系租客预约看房</string>
+    <string name="casa_tv5" translatable="false">租客姓名</string>
+    <string name="casa_tv5_error" translatable="false">请输入租客姓名</string>
+    <string name="casa_tv6_error" translatable="false">请输入租客的电话</string>
+    <string name="casa_tv6" translatable="false">租客电话</string>
+    <string name="casa_tv7" translatable="false">不授权平台联系租客预约看房</string>
+    <string name="casa_tv8" translatable="false">预约小贴士：</string>
+    <string name="casa_tv9" translatable="false">点击选择可看房时间</string>
+    <string name="casa_tv10" translatable="false">以上时间均不方便，请让客</string>
+    <string name="casa_tv11" translatable="false">需要提前</string>
+    <string name="casa_tv12" translatable="false">天和我预约</string>
+    <string name="casa_tv13" translatable="false">愿交钥匙</string>
+    <string name="casa_tv14" translatable="false">不愿交钥匙</string>
+    <string name="qx" translatable="false">全选</string>
+    <string name="qsr" translatable="false">请输入</string>
+    <string name="zu" translatable="false">租</string>
+    <string name="sq" translatable="false">收起</string>
+    <string name="zk" translatable="false">展开</string>
+    <string name="deliverydetails_tv1" translatable="false">房源属性</string>
+    <string name="deliverydetails_tv11" translatable="false">钥匙归属</string>
+    <string name="deliverydetails_tv9" translatable="false">业主取消预约</string>
+    <string name="deliverydetails_tv13" translatable="false">确定取消订单</string>
+    <string name="deliverydetails_tv2" translatable="false">见面时间</string>
+    <string name="deliverydetails_tv3" translatable="false">见面地点</string>
+    <string name="deliverydetails_tv4" translatable="false">关单倒计时</string>
+    <string name="deliverydetails_tv5" translatable="false">任务开始倒计时</string>
+    <string name="deliverydetails_tv6" translatable="false">客户取消预约</string>
+    <string name="deliverydetails_tv7" translatable="false">转单</string>
+    <string name="deliverydetails_tv8" translatable="false">到达客户</string>
+    <string name="deliverydetails_tv10" translatable="false">参与当前看房</string>
+    <string name="deliverydetails_tv12" translatable="false">我已到达</string>
+    <string name="deliverydetailsnext_tv1" translatable="false">上传业主手持合同半身照</string>
+    <string name="deliverydetailsnext_tv2" translatable="false">上传房源</string>
+    <string name="forgetpwd_tv2" translatable="false">获取验证码</string>
+
+    <string name="xyb" translatable="false">下一步</string>
+
+    <string name="ljqd" translatable="false">立即抢单</string>
+    <string name="qxz" translatable="false">请选择</string>
+
+    <string name="home_atv_tv1" translatable="false">派单表</string>
+    <string name="home_atv_tv2" translatable="false">已上传</string>
+    <string name="home_atv_tv3" translatable="false">抢单</string>
+    <string name="home_atv_tv4" translatable="false">合同单</string>
+    <string name="home_atv_tv5" translatable="false">我的</string>
+
+    <string name="fwpz_tv1" translatable="false">佣人房</string>
+    <string name="fwpz_tv2" translatable="false">书房</string>
+    <string name="fwpz_tv3" translatable="false">存储间</string>
+    <string name="fwpz_tv4" translatable="false">阳台</string>
+    <string name="fwpz_tv5" translatable="false">礼宾服务</string>
+    <string name="fwpz_tv6" translatable="false">水景</string>
+    <string name="fwpz_tv7" translatable="false">地标景观</string>
+    <string name="fwpz_tv8" translatable="false">允许宠物</string>
+    <string name="fwpz_tv9" translatable="false">嵌入式衣柜</string>
+    <string name="fwpz_tv10" translatable="false">健身房</string>
+    <string name="fwpz_tv11" translatable="false">游池</string>
+    <string name="fwpz_tv12" translatable="false">水疗</string>
+    <string name="fwpz_tv13" translatable="false">私人花园</string>
+    <string name="fwpz_tv14" translatable="false">衣帽间</string>
+
+    <string name="houses_tv1" translatable="false">我要出租</string>
+    <string name="houses_tv2" translatable="false">我要出售</string>
+    <string name="houses_tv3" translatable="false">房屋关联</string>
+    <string name="houses_tv4" translatable="false">请输入关联号</string>
+    <string name="houses_tv5" translatable="false">房源归属</string>
+    <string name="houses_tv6" translatable="false">POA</string>
+    <string name="houses_tv7" translatable="false">户主</string>
+    <string name="houses_tv8" translatable="false">POA复印件</string>
+    <string name="houses_tv9" translatable="false">被委托人的护照</string>
+    <string name="houses_tv10" translatable="false">被委托人的签证</string>
+    <string name="houses_tv11" translatable="false">被委托人的ID卡</string>
+    <string name="houses_tv12" translatable="false">房屋产权证明</string>
+    <string name="houses_tv13" translatable="false">房屋产权证明人护照照片</string>
+    <string name="houses_tv14" translatable="false">FormA确认</string>
+    <string name="houses_tv15" translatable="false">房屋户型图 (选填)</string>
+    <string name="houses_tv16" translatable="false">基本信息</string>
+    <string name="houses_tv17" translatable="false">房屋类型</string>
+    <string name="houses_tv18" translatable="false">房源区域</string>
+    <string name="houses_tv59" translatable="false">详细地址</string>
+    <string name="houses_tv19" translatable="false">小区名称</string>
+    <string name="houses_tv20" translatable="false">填写小区名称</string>
+    <string name="houses_tv21" translatable="false">楼名</string>
+    <string name="houses_tv22" translatable="false">请输入楼名</string>
+    <string name="houses_tv23" translatable="false">单元</string>
+    <string name="houses_tv24" translatable="false">请输入单元</string>
+    <string name="houses_tv2_4" translatable="false">房屋租赁代理同意书</string>
+    <string name="houses_tv25" translatable="false">楼层</string>
+    <string name="houses_tv26" translatable="false">请输入楼层</string>
+    <string name="houses_tv27" translatable="false">门牌号</string>
+    <string name="houses_tv28" translatable="false">请输入门牌号</string>
+    <string name="houses_tv29" translatable="false">面积</string>
+    <string name="houses_tv30" translatable="false">请输入面积</string>
+    <string name="houses_tv31" translatable="false">卧室数量</string>
+    <string name="houses_tv32" translatable="false">浴室数量</string>
+    <string name="houses_tv33" translatable="false">车位</string>
+    <string name="houses_tv34" translatable="false">装修情况</string>
+    <string name="houses_tv35" translatable="false">房屋状态</string>
+    <string name="houses_tv36" translatable="false">房源状态</string>
+    <string name="houses_tv37" translatable="false">房屋配置</string>
+    <string name="houses_tv38" translatable="false">售价详情</string>
+    <string name="houses_tv39" translatable="false">是否有房贷</string>
+    <string name="houses_tv40" translatable="false">请输入是否房贷</string>
+    <string name="houses_tv41" translatable="false">期望售价</string>
+    <string name="houses_tv42" translatable="false">请输入期望售价</string>
+    <string name="houses_tv43" translatable="false">最低售价</string>
+
+    <string name="houses_tv58" translatable="false">房屋配套</string>
+
+    <string name="houses_tv44" translatable="false">请输入最低售价</string>
+    <string name="houses_tv45" translatable="false">自动答应1</string>
+    <string name="houses_tv46" translatable="false">起租日期</string>
+    <string name="houses_tv47" translatable="false">租赁时长</string>
+    <string name="houses_tv48" translatable="false">支付节点</string>
+    <string name="houses_tv49" translatable="false">租金价格</string>
+    <string name="houses_tv50" translatable="false">最低租金</string>
+    <string name="houses_tv51" translatable="false">社交账号 (选填)</string>
+    <string name="houses_tv52" translatable="false">请输入期望售价</string>
+    <string name="houses_tv53" translatable="false">邮箱</string>
+    <string name="houses_tv54" translatable="false">Facebook</string>
+    <string name="houses_tv55" translatable="false">Twitter</string>
+    <string name="houses_tv56" translatable="false">Instagram</string>
+    <string name="houses_tv57" translatable="false">当前房源二维码</string>
+    <string name="request_key_error" translatable="false">钥匙不在区域长手里</string>
+
+    <string name="login_title" translatable="false">外获登录</string>
+    <string name="login_name" translatable="false">账号：</string>
+    <string name="login_pwd" translatable="false">密码：</string>
+    <string name="login_bt" translatable="false">登录</string>
+    <string name="forget_pwd" translatable="false">忘记密码</string>
+
+    <string name="forget_pwd_tv1" translatable="false">请输入注册手机号</string>
+    <string name="forget_pwd_tv2" translatable="false">请输入验证码</string>
+    <string name="forget_pwd_tv3" translatable="false">获取验证码</string>
+
+    <string name="code_error1" translatable="false">发送验证码失败，请稍后再试</string>
+    <string name="code_success" translatable="false">验证码已发送,注意查收</string>
+
+    <string name="phone_error1" translatable="false">您当前手机号获取失败，请重新获取</string>
+    <string name="user_error1" translatable="false">账号不能为空</string>
+    <string name="user_error2" translatable="false">密码不能为空</string>
+    <string name="user_error3" translatable="false">用户名或密码错误</string>
+    <string name="user_success1" translatable="false">登录成功，为您自动 跳转到主界面</string>
+
+    <string name="request_success1" translatable="false">数据加载成功</string>
+    <string name="request_success2" translatable="false">修改成功</string>
+    <string name="request_success3" translatable="false">请求成功</string>
+    <string name="request_error3" translatable="false">请求失败,请稍候再试</string>
+    <string name="request_error4" translatable="false">网络异常,请稍候再试</string>
+    <string name="request_success_empty" translatable="false">暂无数据</string>
+    <string name="home_one_tv1" translatable="false">任务开始倒计时:</string>
+    <string name="home_one_tv2" translatable="false">订单编号:</string>
+    <string name="key_tv1" translatable="false">在业主</string>
+    <string name="key_tv2" translatable="false">在钥匙管理员</string>
+    <string name="key_tv3" translatable="false">外看业务员</string>
+    <string name="key_tv4" translatable="false">外获业务员</string>
+    <string name="bddh" translatable="false">拨打电话给</string>
+    <string name="phone_error2" translatable="false">电话号码异常</string>
+
+    <string name="details_id" translatable="false">房源ID:</string>
+    <string name="details_id1" translatable="false">我要举报</string>
+    <string name="details_id3" translatable="false">举报</string>
+    <string name="details_id2" translatable="false">房源含无效、虚假信息</string>
+    <string name="details_id4" translatable="false">房源评论</string>
+    <string name="details_id5" translatable="false">展开更多</string>
+    <string name="details_id6" translatable="false">房屋类型：</string>
+    <string name="details_id7" translatable="false">楼层：</string>
+    <string name="details_id8" translatable="false">装修情况：</string>
+    <string name="details_id9" translatable="false">支付节点：</string>
+    <string name="details_id10" translatable="false">车位：</string>
+    <string name="details_id11" translatable="false">入住时间：</string>
+    <string name="details_id12" translatable="false">位置及周边</string>
+    <string name="details_id13" translatable="false">房源情况</string>
+
+    <string name="fywz" translatable="false">房源位置</string>
+
+    <string name="pl_tv1" translatable="false">请选择评价类型</string>
+    <string name="pl_tv2" translatable="false">房源状况类</string>
+    <string name="pl_tv3" translatable="false">服务类</string>
+    <string name="pl_tv4" translatable="false">过户类</string>
+    <string name="pl_tv5" translatable="false">房源信息错误</string>
+    <string name="pl_tv6" translatable="false">停售改价</string>
+
+    <string name="gd_tv1" translatable="false">立即抢单</string>
+
+    <string name="gd_tv2" translatable="false">完成看房</string>
+
+    <string name="settings_tv1" translatable="false">客服回复</string>
+    <string name="settings_tv2" translatable="false">预约时间提醒</string>
+    <string name="settings_tv3" translatable="false">房源推送</string>
+    <string name="settings_tv4" translatable="false">交易提醒</string>
+    <string name="settings_tv5" translatable="false">为了您的夜间休息，在23:00到7:00之间不会推送以上消息</string>
+
+    <string name="home_one_title1" translatable="false">外看</string>
+    <string name="home_one_title2" translatable="false">外获</string>
+
+    <string name="location_error" translatable="false">获取定位信息失败</string>
+
+    <string name="dddd" translatable="false">到达地点</string>
+    <string name="kfdh" translatable="false">客服电话</string>
+
+    <string name="request_error_1" translatable="false">加载失败,请稍后再试</string>
+    <string name="request_error_2" translatable="false">修改失败,请稍后再试</string>
+
+    <string name="login_zh" translatable="false">用户:</string>
+    <string name="login_mm" translatable="false">密码:</string>
+    <string name="request_error" translatable="false">加载失败，请稍后再试</string>
+    <string name="request_empty_success" translatable="false">暂无数据</string>
+    <string name="request_success" translatable="false">加载成功</string>
+
+    <string name="zxqk_type1" translatable="false">带家具</string>
+    <string name="zxqk_type2" translatable="false">不带家具</string>
+    <string name="zxqk_type3" translatable="false">半家具</string>
+
+    <string name="fyzt_type1" translatable="false">期房</string>
+    <string name="fyzt_type2" translatable="false">现房</string>
+
+    <string name="fwlx_type1" translatable="false">小区</string>
+    <string name="fwlx_type3" translatable="false">公寓</string>
+    <string name="fwlx_type2" translatable="false">别墅</string>
+
+    <string name="ge" translatable="false">个</string>
+
+    <string name="no" translatable="false">没有</string>
+    <string name="yes" translatable="false">有</string>
+
+    <string name="hehe1" translatable="false">租金详情</string>
+    <string name="hehe2" translatable="false">支付节点</string>
+    <string name="hehe3" translatable="false">起租日期</string>
+    <string name="hehe4" translatable="false">期望租金</string>
+    <string name="hehe5" translatable="false">最低租金</string>
+
+    <string name="ci" translatable="false">次</string>
+    <string name="pz" translatable="false">拍照</string>
+    <string name="xc" translatable="false">相册</string>
+
+    <string name="fwzt_type2" translatable="false">出租</string>
+    <string name="fwzt_type3" translatable="false">自住</string>
+    <string name="fwzt_type1" translatable="false">空房</string>
+
+    <string name="edit_error1" translatable="false">请选择房屋产权证明照片</string>
+    <string name="edit_error2" translatable="false">请选择房屋产权证明人护照照片</string>
+    <string name="edit_error3" translatable="false">请选择房屋租赁代理同意书照片</string>
+    <string name="edit_error4" translatable="false">请选择FormA确认照片</string>
+    <string name="edit_error5" translatable="false">请选择POA复印件片照片</string>
+    <string name="edit_error6" translatable="false">请选择被委托人的护照照片</string>
+    <string name="edit_error7" translatable="false">请选择被委托人的ID卡照片</string>
+    <string name="edit_error8" translatable="false">请选择被委托人的签证照片</string>
+    <string name="edit_error9" translatable="false">请选择服务产权证明照片</string>
+    <string name="edit_error10" translatable="false">请选择FormA确认照片</string>
+
+    <string name="edit_error11" translatable="false">请选择房屋类型</string>
+    <string name="edit_error12" translatable="false">请选择房源区域</string>
+    <string name="edit_error37" translatable="false">请输入房源详细地址</string>
+    <string name="edit_error13" translatable="false">请输入小区名称</string>
+    <string name="edit_error14" translatable="false">请输入楼名</string>
+    <string name="edit_error15" translatable="false">请输入楼层</string>
+    <string name="edit_error16" translatable="false">请输入门牌号</string>
+    <string name="edit_error17" translatable="false">请输入面积</string>
+    <string name="edit_error18" translatable="false">请选择卧室数量</string>
+    <string name="edit_error19" translatable="false">请选择浴室数量</string>
+    <string name="edit_error20" translatable="false">请选择车位</string>
+    <string name="edit_error21" translatable="false">请选择装修情况</string>
+    <string name="edit_error22" translatable="false">请选择房屋状态</string>
+    <string name="edit_error23" translatable="false">请选择房源状态</string>
+
+    <string name="edit_error24" translatable="false">请选择支付节点</string>
+    <string name="edit_error25" translatable="false">请选择起租日期</string>
+    <string name="edit_error26" translatable="false">请输入期望租金</string>
+    <string name="edit_error27" translatable="false">请输入最低租金</string>
+    <string name="edit_error28" translatable="false">最低出售值必须大于期望值</string>
+    <string name="edit_error29" translatable="false">请选择是否有房贷</string>
+    <string name="edit_error30" translatable="false">请输入期望售价</string>
+    <string name="edit_error31" translatable="false">请输入最低售价</string>
+    <string name="edit_error32" translatable="false">请输入地块信息</string>
+    <string name="edit_error33" translatable="false">请选择区域类型</string>
+    <string name="edit_error34" translatable="false">请输入产权证书</string>
+    <string name="edit_error35" translatable="false">请输入产权编号</string>
+    <string name="edit_error36" translatable="false">请输入地产开发商</string>
+
+    <string name="hehe2_1">上传凭证(可选)</string>
+
+    <string name="toolbar_title_1" translatable="false">月度出勤排班</string>
+    <string name="toolbar_title_2" translatable="false">房屋状态</string>
+
+    <string name="five_tv1" translatable="false">个人中心</string>
+    <string name="five_tv2" translatable="false">个人积分</string>
+    <string name="five_tv3" translatable="false">成单结佣记录</string>
+    <string name="five_tv4" translatable="false">月度出勤排班</string>
+    <string name="five_tv5" translatable="false">我的钥匙</string>
+    <string name="five_tv6" translatable="false">个人绩效</string>
+    <string name="five_tv7" translatable="false">到达客户</string>
+    <string name="five_tv8" translatable="false">上传房源</string>
+    <string name="five_tv9" translatable="false">成功上传</string>
+    <string name="five_tv10" translatable="false">转单数量</string>
+    <string name="five_tv11" translatable="false">邀请有礼</string>
+    <string name="five_tv12" translatable="false">修改登录密码</string>
+    <string name="five_tv13" translatable="false">修改本人电话</string>
+    <string name="five_tv14" translatable="false">注销登录</string>
+    
+    <string name="fyxx_tv1" translatable="false">房源信息</string>
+    <string name="fyxx_tv2" translatable="false">地块信息</string>
+    <string name="fyxx_tv3" translatable="false">区域类型</string>
+    <string name="fyxx_tv4" translatable="false">产权证书</string>
+    <string name="fyxx_tv5" translatable="false">产权编号</string>
+    <string name="fyxx_tv6" translatable="false">地产开发商</string>
+    <string name="footer_tv" translatable="false">加载更多</string>
+    <string name="fwlx_tv1_parent" translatable="false">民居</string>
+    <string name="fwlx_tv2_parent" translatable="false">商业</string>
+    <string name="fwlx_tv1_child1" translatable="false">公寓</string>
+    <string name="fwlx_tv1_child2" translatable="false">别墅</string>
+    <string name="fwlx_tv1_child3" translatable="false">联排别墅</string>
+    <string name="fwlx_tv1_child4" translatable="false">阁楼</string>
+    <string name="fwlx_tv1_child5" translatable="false">复式</string>
+    <string name="fwlx_tv1_child6" translatable="false">整层</string>
+    <string name="fwlx_tv1_child7" translatable="false">整楼</string>
+    <string name="fwlx_tv1_child8" translatable="false">单层别墅</string>
+    <string name="fwlx_tv2_child1" translatable="false">办公室</string>
+    <string name="fwlx_tv2_child2" translatable="false">岭街门面</string>
+    <string name="fwlx_tv2_child3" translatable="false">仓库</string>
+    <string name="fwlx_tv2_child4" translatable="false">商店</string>
+    <string name="fwlx_tv2_child5" translatable="false">商用别墅</string>
+    <string name="fwlx_tv2_child6" translatable="false">展厅</string>
+    <string name="fwlx_tv2_child7" translatable="false">整层</string>
+    <string name="fwlx_tv2_child8" translatable="false">整楼</string>
+    <string name="fwlx_tv2_child9" translatable="false">土地</string>
+    <string name="fwlx_tv2_child10" translatable="false">酒店</string>
+    <string name="fwlx_tv2_child11" translatable="false">酒店公寓</string>
+    <string name="fwlx_tv2_child12" translatable="false">劳工营地</string>
+    <string name="fwlx_tv2_child13" translatable="false">民工宿舍</string>
+
+    <string name="qrcode_tv1" translatable="false">批量扫码</string>
+
+    <string name="zdyd_tv1" translatable="false">自动应答1</string>
+    <string name="zdyd_tv2" translatable="false">自动应答2</string>
+    <string name="zdyd_tv3" translatable="false">自动应答3</string>
+    <string name="zdyd_tv4" translatable="false">支付方式</string>
+    <string name="zdyd_tv5" translatable="false">现金</string>
+    <string name="zdyd_tv6" translatable="false">贷款</string>
+    <string name="zdyd_tv7" translatable="false">是否完成预审批</string>
+
+    <string name="bj" translatable="false">编辑</string>
+
+    <string name="shi" translatable="false">是</string>
+    <string name="fou" translatable="false">否</string>
+    <string name="toolbar_title3" translatable="false">完善房源信息</string>
+
+    <string name="zpsc" translatable="false">请选择租赁时长</string>
+    <string name="srzj" translatable="false">请输入租金</string>
+
+    <string name="wc" translatable="false">完成</string>
+    <string name="hehe_3" translatable="false">请选择业主手持合同半身照</string>
+
+    <string name="app_tv1" translatable="false">获取缓存记录失败</string>
+    <string name="app_tv2" translatable="false">请开启存储权限</string>
+    <string name="app_tv3" translatable="false">客服电话</string>
+    <string name="app_tv4" translatable="false">用户名不能为空</string>
+    <string name="app_tv5" translatable="false">密码不能为空</string>
+    <string name="app_tv6" translatable="false">用户名或密码错误</string>
+    <string name="app_tv7" translatable="false">修改手机号码失败,请稍后再试</string>
+    <string name="app_tv8" translatable="false">消息</string>
+    <string name="app_tv9" translatable="false">设置自动应答</string>
+    <string name="app_tv10" translatable="false">跳过</string>
+    <string name="app_tv11" translatable="false">上传房源成功</string>
+    <string name="app_tv12" translatable="false">房屋详情</string>
+    <string name="app_tv13" translatable="false">二维码/条码</string>
+    <string name="app_tv14" translatable="false">设置</string>
+    <string name="app_tv15" translatable="false">至少请选择一项</string>
+    <string name="app_tv16" translatable="false">成单结佣记录详情</string>
+    <string name="app_tv17" translatable="false">转单成功</string>
+    <string name="app_tv18" translatable="false">登录成功，为您自动 跳转到主界面</string>
+    <string name="app_tv19" translatable="false">休</string>
+    <string name="app_tv20" translatable="false">我的邀请码</string>
+    <string name="app_tv21" translatable="false">我的邀请记录</string>
+    <string name="app_tv22" translatable="false">邀请好友数</string>
+    <string name="app_tv23" translatable="false">获得奖励</string>
+    <string name="app_tv24" translatable="false">搜索房源钥匙</string>
+    <string name="app_tv25" translatable="false">生成二维码</string>
+    <string name="app_tv26" translatable="false">将二维码/条码放入框内，即可自动扫描</string>
+    <string name="app_tv27" translatable="false">派单上传房源</string>
+    <string name="app_tv28" translatable="false">温馨提示：房屋租赁最多只能设置三套自动应答</string>
+    <string name="app_tv29" translatable="false">确认设置</string>
+    <string name="app_tv30" translatable="false">温馨提示：房屋租赁最多只能设置三套自动应答</string>
+    <string name="app_tv31" translatable="false">密码修改成功，为您自动跳转到登录页</string>
+    <string name="app_tv32" translatable="false">我知道了</string>
+    <string name="app_tv33" translatable="false">本月出勤数据统计</string>
+    <string name="app_tv34" translatable="false">出勤天数</string>
+    <string name="app_tv35" translatable="false">休息天数</string>
+    <string name="app_tv36" translatable="false">未出勤</string>
+    <string name="app_tv37" translatable="false">请假</string>
+    <string name="app_tv38" translatable="false">点击抢单</string>
+    <string name="app_tv39" translatable="false">系统消息</string>
+    <string name="app_tv40" translatable="false">温馨提示：房屋出售最多只能设置一套自动应答</string>
+    <string name="app_tv41" translatable="false">温馨提示：房屋租赁最多只能设置三套自动应答</string>
+
+
+
+    <string name="date_tv1" translatable="false">日</string>
+    <string name="date_tv2" translatable="false">一</string>
+    <string name="date_tv3" translatable="false">二</string>
+    <string name="date_tv4" translatable="false">三</string>
+    <string name="date_tv5" translatable="false">四</string>
+    <string name="date_tv6" translatable="false">五</string>
+    <string name="date_tv7" translatable="false">六</string>
+
+    <string name="settlement_1" translatable="false">付款金额</string>
+    <string name="settlement_2" translatable="false">付款日期</string>
+    <string name="settlement_3" translatable="false">银行</string>
+    <string name="settlement_4" translatable="false">订单编号</string>
+    <string name="settlement_5" translatable="false">电子发票</string>
+    <string name="settlement_6" translatable="false">点击查看</string>
+    <string name="settlement_7" translatable="false">交易状态</string>
+    <string name="settlement_8" translatable="false">如有问题请及时与客服联系</string>
+    <string name="settlement_9" translatable="false">交易成功</string>
+
+
+    <string name="houses_type1" translatable="false">鞋架</string>
+    <string name="houses_type2" translatable="false">落地灯</string>
+    <string name="houses_type3" translatable="false">沙发椅</string>
+    <string name="houses_type4" translatable="false">靠背椅</string>
+    <string name="houses_type5" translatable="false">沙发桌</string>
+    <string name="houses_type6" translatable="false">书架</string>
+    <string name="houses_type7" translatable="false">电视</string>
+    <string name="houses_type8" translatable="false">电视架</string>
+    <string name="houses_type9" translatable="false">艺术品</string>
+    <string name="houses_type10" translatable="false">餐具</string>
+    <string name="houses_type11" translatable="false">锅</string>
+    <string name="houses_type12" translatable="false">烤箱</string>
+    <string name="houses_type13" translatable="false">洗衣机</string>
+    <string name="houses_type14" translatable="false">冰箱</string>
+    <string name="houses_type15" translatable="false">电灶台</string>
+    <string name="houses_type16" translatable="false">燃气灶台</string>
+    <string name="houses_type17" translatable="false">微波炉</string>
+    <string name="houses_type18" translatable="false">咖啡机</string>
+    <string name="houses_type19" translatable="false">电热壶</string>
+    <string name="houses_type20" translatable="false">洗碗机</string>
+
+    <string name="houses_type21" translatable="false">垃圾桶</string>
+    <string name="houses_type22" translatable="false">餐桌椅</string>
+    <string name="houses_type23" translatable="false">沐浴</string>
+    <string name="houses_type24" translatable="false">浴池</string>
+    <string name="houses_type25" translatable="false">床</string>
+    <string name="houses_type26" translatable="false">床垫</string>
+    <string name="houses_type27" translatable="false">床头柜</string>
+    <string name="houses_type28" translatable="false">床灯</string>
+    <string name="houses_type29" translatable="false">梳妆台</string>
+    <string name="houses_type30" translatable="false">窗帘</string>
+    <string name="houses_type31" translatable="false">书桌</string>
+    <string name="houses_type32" translatable="false">书桌椅</string>
+
+    <string name="load" translatable="false">正在加载...</string>
+
+    <string name="initConfig_success" translatable="false">初始化数据成功</string>
+    <string name="initConfig" translatable="false">正在初始化数据..</string>
+    <string name="initConfig_error" translatable="false">初始化数据失败,请重试</string>
+
+    <string name="msg_type1" translatable="false">系统消息</string>
+    <string name="msg_type2" translatable="false">钥匙交接</string>
+    <string name="msg_type3" translatable="false">派单状态</string>
+    <string name="msg_type4" translatable="false">抢单状态</string>
+    <string name="msg_type5" translatable="false">交接成功</string>
+    <string name="msg_type6" translatable="false">派单成功</string>
+    <string name="msg_type7" translatable="false">抢单成功</string>
+
+
+    <string name="heihei_tv7" translatable="false">交钥匙：</string>
+    <string name="heihei_tv8" translatable="false">时间：</string>
+    <string name="heihei_tv9" translatable="false">地点：</string>
+    <string name="heihei_tv10" translatable="false">安装</string>
+    <string name="heihei_tv11" translatable="false">新消息通知</string>
+    <string name="heihei_tv12" translatable="false">已开启</string>
+    <string name="heihei_tv13" translatable="false">消息中心</string>
+    <string name="heihei_tv14" translatable="false">交出人:</string>
+    <string name="heihei_tv15" translatable="false">接收人:</string>
+    <string name="heihei_tv16" translatable="false">天</string>
+    <string name="heihei_tv17" translatable="false">年</string>
+    <string name="heihei_tv18" translatable="false">月</string>
+    <string name="heihei_tv19" translatable="false">删除</string>
+    <string name="heihei_tv20" translatable="false">扫码成功</string>
+    <string name="heihei_tv21" translatable="false">合同签字派单列表</string>
+    <string name="heihei_tv22" translatable="false">批量转单</string>
+    <string name="heihei_tv23" translatable="false">派送记录</string>
+
+    <string name="heihei_tv24" translatable="false">帐户已被注销</string>
+    <string name="heihei_tv25" translatable="false">分</string>
+    <string name="heihei_tv26" translatable="false">所属区域</string>
+    <string name="heihei_tv27" translatable="false">单</string>
+    <string name="heihei_tv28" translatable="false">抢单列表</string>
+    <string name="heihei_tv29" translatable="false">扫码成功</string>
+    <string name="heihei_tv30" translatable="false">请先刷新数据,数据异常</string>
+    <string name="heihei_tv31" translatable="false">抢单详情</string>
+    <string name="heihei_tv32" translatable="false">抢单失败，请选择其他合适的订单</string>
+    <string name="heihei_tv33" translatable="false">您已抢单成功！</string>
+    <string name="heihei_tv34" translatable="false">密码修改失败，请稍后再试</string>
+    <string name="heihei_tv35" translatable="false">请输入旧密码</string>
+    <string name="heihei_tv36" translatable="false">请输入新密码</string>
+    <string name="heihei_tv37" translatable="false">旧密码不能为空</string>
+    <string name="heihei_tv38" translatable="false">新密码不能为空</string>
+    <string name="heihei_tv39" translatable="false">新密码至少六位</string>
+    <string name="heihei_tv40" translatable="false">请输入短信验证码</string>
+    <string name="heihei_tv41" translatable="false">无法发送验证码，请稍后再试</string>
+    <string name="heihei_tv42" translatable="false">验证码已发送，请注意查收</string>
+    <string name="heihei_tv43" translatable="false">您当前的手机号码无法获取。 请返回主界面</string>
+    <string name="heihei_tv44" translatable="false">设置新密码</string>
+    <string name="heihei_tv45" translatable="false">密码不一致</string>
+    <string name="heihei_tv46" translatable="false">密码设置成功，您将自动跳转到主界面</string>
+    <string name="heihei_tv47" translatable="false">修改我的电话号码</string>
+    <string name="heihei_tv48" translatable="false">手机成功修改，您将自动跳转到主界面</string>
+    <string name="heihei_tv49" translatable="false">请输入新手机号</string>
+    <string name="heihei_tv50" translatable="false">电话格式错误</string>
+    <string name="heihei_tv51" translatable="false">登陆成功</string>
+    <string name="heihei_tv55" translatable="false">未付款</string>
+    <string name="heihei_tv56" translatable="false">线上支付</string>
+    <string name="heihei_tv57" translatable="false">线下支付</string>
+    <string name="heihei_tv58" translatable="false">钱包支付</string>
+    <string name="heihei_tv59" translatable="false">已支付</string>
+    <string name="heihei_tv60" translatable="false">查看详情</string>
+    <string name="heihei_tv61" translatable="false">钥匙不在平台</string>
+    <string name="heihei_tv62" translatable="false">钥匙在平台</string>
+    <string name="heihei_tv63" translatable="false">交接日期:</string>
+    <string name="heihei_tv64" translatable="false">交接地点:</string>
+    <string name="heihei_tv65" translatable="false">任务开始前40分钟后无法进行转单</string>
+    <string name="heihei_tv66" translatable="false">数据异常,无法进行下一步操作</string>
+    <string name="heihei_tv67" translatable="false">未登陆状态，无法查看消息</string>
+    <string name="heihei_tv68" translatable="false">网络需要翻墙，请稍候再试</string>
+    <string name="houses_tv60" translatable="false">开间</string>
+    <string name="skzt_tv1" translatable="false">待审核</string>
+    <string name="skzt_tv2" translatable="false">审核通过</string>
+    <string name="skzt_tv3" translatable="false">审核不通过</string>
+    <string name="skzt_tv4" translatable="false">暂存</string>
+
+    <string name="paynode_type1" translatable="false">一月一付</string>
+    <string name="paynode_type2" translatable="false">两月一付</string>
+    <string name="paynode_type3" translatable="false">四月一付</string>
+    <string name="paynode_type4" translatable="false">半年一付</string>
+    <string name="paynode_type5" translatable="false">一年一付</string>
+
+    <string name="email_error" translatable="false">邮箱格式错误</string>
+</resources>

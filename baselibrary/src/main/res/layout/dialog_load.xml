@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_load_bg">
+
+    <cn.yc.library.view.load.LVCircularRing
+        android:id="@+id/lv_circularring"
+        app:layout_widthPercent="14%w"
+        app:layout_heightPercent="14%w"
+        android:layout_gravity="center"
+        android:onClick="startAnim"
+        app:layout_marginPercent="5.65%w"
+        app:layout_marginRightPercent="4.65%w"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16.5sp"
+        android:textColor="#fff"
+        android:text="正在加载"
+        android:id="@+id/load_tv"
+        app:layout_marginLeftPercent="0%w"
+        android:layout_gravity="center"/>
+</com.ysgj.percent.PercentLinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_height="wrap_content">
+
+        <cn.yc.library.view.XRecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/home_one_rv"
+            android:background="#fff">
+
+        </cn.yc.library.view.XRecyclerView>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <cn.yc.library.view.DragFloatActionButton
+        android:background="@mipmap/img1"
+        app:layout_widthPercent="15.74%w"
+        app:layout_heightPercent="15.74%w"
+        android:layout_gravity="center"
+        app:layout_marginRightPercent="5%w"
+        app:layout_marginBottomPercent="8.27%w"
+        android:layout_alignParentRight="true"
+        android:id="@+id/dial_phone"
+        android:layout_alignParentBottom="true" />
+
+</com.ysgj.percent.PercentRelativeLayout>

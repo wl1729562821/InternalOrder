@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ebebeb"
+    android:orientation="vertical"
+    android:visibility="gone"
+    android:id="@+id/item_parent"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="18px"
+        android:paddingBottom="18px">
+
+        <ProgressBar
+            android:id="@+id/listview_foot_progress"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16.5sp"
+            android:textColor="#5a5a5a"
+            android:text="正在加载"
+            android:id="@+id/load_tv"
+            android:layout_marginLeft="10px"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ysgj.percent.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15.5sp"
+        android:textColor="#5a5a5a"
+        android:text="@string/prompt"
+        android:id="@+id/dialog_title"
+        app:layout_marginPercent="5.32%w"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#5a5a5a"
+        android:text=""
+        android:id="@+id/value_tv"
+        app:layout_paddingLeftPercent="21.52%w"
+        app:layout_paddingRightPercent="21.52%w"
+        android:gravity="center"
+        app:layout_marginBottomPercent="8%w"
+        app:layout_marginTopPercent="8%w"
+        android:layout_gravity="center"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f5f5f5"
+        />
+
+    <com.ysgj.percent.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15.5sp"
+            android:textColor="#666666"
+            android:text="@string/cancel"
+            android:id="@+id/cancel_bt"
+            android:gravity="center"
+            app:layout_marginTopPercent="4.65%w"
+            app:layout_marginBottomPercent="4.65%w"
+            android:layout_gravity="center"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#f5f5f5"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15.5sp"
+            android:textColor="#1bbd70"
+            android:text="@string/dial"
+            android:id="@+id/ok_bt"
+            android:gravity="center"
+            app:layout_marginTopPercent="4.65%w"
+            app:layout_marginBottomPercent="4.65%w"
+            android:layout_gravity="center"/>
+
+    </com.ysgj.percent.PercentLinearLayout>
+</com.ysgj.percent.PercentLinearLayout>

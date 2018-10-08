@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#a0a0a0"
+                android:textSize="24px"
+                android:id="@+id/parent0"
+                android:padding="19px"
+                android:paddingLeft="30px"
+                android:paddingRight="30px"
+                android:text="@string/app_tv28"
+                android:gravity="center"
+                />
+
+            <LinearLayout
+                android:id="@+id/zdyd_parent"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:background="#f7f7f7"
+                android:layout_gravity="center"
+                android:padding="60px"
+                android:id="@+id/add_bt"
+                android:layout_marginTop="40px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="80px"
+                    android:layout_height="80px"
+                    android:background="@mipmap/houses_add"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="270px"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18px"
+            android:textSize="36px"
+            android:textColor="#fff"
+            android:text="@string/xyb"
+            android:id="@+id/bt"
+            android:gravity="center"
+            android:layout_margin="14px"
+            android:layout_marginLeft="28px"
+            android:layout_marginRight="28px"
+            android:background="@drawable/houses_bt"
+            />
+
+    </LinearLayout>
+</LinearLayout>
